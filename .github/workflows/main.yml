@@ -1,63 +1,63 @@
-# This workflow is called
-Name: Vavoo Channel List Updater
+# Bu workflow'un adı
+name: Vavoo Kanal Listesi Güncelleyici
 
-front:
-  # It runs automatically every 30 minutes.
-  # (Set to 30 minutes instead of 5 minutes to avoid straining the server; you can change it.)
+on:
+  # Her 30 dakikada bir otomatik çalıştırır
+  # (Sunucuyu yormamak için 5dk yerine 30dk olarak ayarlandı, değiştirebilirsiniz)
   schedule:
-    - cron: '*/59 * * * *'
+    - cron: '*/59 * * * *' 
   
-  # Enables manual execution from the GitHub interface.
+  # GitHub arayüzünden manuel olarak çalıştırmayı sağlar
   workflow_dispatch:
 
 jobs:
-  # We define a job named "build"
+  # "build" adında bir job (iş) tanımlıyoruz
   build:
-    # It will run on the latest Ubuntu virtual machine.
-    runs-on:ubuntu-latest
+    # En güncel Ubuntu sanal makinesinde çalışacak
+    runs-on: ubuntu-latest
     
-    # This indicates that this job has permission to write code (commit) to the repository.
+    # Bu job'un, repository'ye kod yazma (commit atma) izni olduğunu belirtir
     permissions:
       contents: write
 
     steps:
-      # Step 1: Download the code from the repository to the virtual machine.
+      # 1. Adım: Repository'deki kodları sanal makineye indirir
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      Step 2: Install the specified Python version (3.10)
+      # 2. Adım: Belirtilen Python sürümünü (3.10) kurar
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      # Step 3: Installs the necessary Python library (requests).
-      # This step will resolve your error.
+      # 3. Adım: Gerekli Python kütüphanesini (requests) kurar
+      # Hatanızın çözümü bu adımdır
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests
 
-      # Step 4: Run the Vavoo scraper script
+      # 4. Adım: Vavoo scraper betiğini çalıştırır
       - name: Run Vavoo Scraper
         run: python vavoo_scraper.py
 
-      # Step 5: Commit and push the generated file (vavoo_channels.m3u8) to the repository.
+      # 5. Adım: Oluşturulan dosyayı (vavoo_kanallar.m3u8) repository'ye commit'ler ve push'lar
       - name: Commit and Push changes
         run: |
-          # Set up bot ID for Git
+          # Git için bot kimliğini ayarla
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Only attach the file we created.
+          # Sadece bizim oluşturduğumuz dosyayı ekle
           git add vavoo_kanallar.m3u8
           
-          # Check if there have been any changes.
+          # Değişiklik olup olmadığını kontrol et
           if git diff --staged --quiet; then
-            echo "No changes found, commit not working."
+            echo "Değişiklik bulunamadı, commit atılmıyor."
           else
-            # If there are any changes, commit and push.
-            echo "Changes found, committing..."
-            git commit -m "📺 Automatically updated Vavoo channel list"
+            # Değişiklik varsa commit at ve push'la
+            echo "Değişiklik bulundu, commit atılıyor..."
+            git commit -m "📺 Otomatik Vavoo kanal listesi güncellendi"
             git push
           fi
