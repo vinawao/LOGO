@@ -180,8 +180,8 @@ def main() -> int:
     parser.add_argument(
         "--m3u",
         type=Path,
-        default=Path("main.m3u"),
-        help="Path to M3U file (e.g. main.m3u)",
+        default=Path("buddy_main.m3u"),
+        help="Path to M3U file (e.g. buddy_main.m3u)",
     )
     parser.add_argument(
         "--dry-run",
