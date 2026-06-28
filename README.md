@@ -1,4 +1,4 @@
-abcd
+# LOGO
 
 <b>Hello</b>
 
@@ -6,6 +6,4 @@ abcd
 welcome
 </div>
 
-<script>
-12345
-</script>
+[b]2026[/b]
