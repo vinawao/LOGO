@@ -89,9 +89,11 @@ def generate_m3u_file_content(channels):
             m3u8_link = f"{BASE_PLAY_URL}{channel_id}/index.m3u8"
             
             # Create the EXTINF line
-            extinf_line = f'#EXTINF:-1 tvg-logo="000" tvg-name="{channel_name}" group-title="{channel_group}",{channel_name}'
-            extinf_line = f'#EXTVLCOPT:http-referrer=https://vavoo.to/'
-            
+            line1 = f'#EXTINF:-1 tvg-logo="000" tvg-name="{channel_name}" group-title="{channel_group}",{channel_name}'
+            line2 = '#EXTVLCOPT:http-referrer=https://vavoo.to/'
+            extinf_line = line1 + '\n' + line2
+
+           
             m3u_lines.append(extinf_line)
             m3u_lines.append(m3u8_link)
             created_count += 1
