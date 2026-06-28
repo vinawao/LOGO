@@ -1,0 +1,40 @@
+# Every 3 hours: sync live + Backup + TheTVApp + Xumo + LocalNow + Tubi + Roku + Pluto TV + Plex into main.m3u
+name: Sync live to tv-channels
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync live into main.m3u
+        run: python3 sync_buddylive_to_tv_channels.py --http-timeout 120 --http-retries 5
+
+      - name: Show changes (if any)
+        run: |
+          git status
+          git diff --stat main.m3u || true
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add main.m3u
+          if git diff --staged --quiet; then
+            echo "No changes to main.m3u; skipping commit and push."
+          else
+            git commit -m "chore: sync live into main.m3u (live/Backup/TheTVApp/Xumo/LocalNow/Tubi/Roku/Pluto/Plex)"
+            git push
+          fi
