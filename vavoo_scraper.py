@@ -2,6 +2,8 @@ import requests
 import sys
 import json
 
+from datetime import datetime
+
 # --- Settings and Constants ---
 
 # JSON address from which channels will be retrieved
@@ -64,7 +66,7 @@ def generate_m3u_file_content(channels):
     
     # Header information for M3U8 file
     
-    from datetime import datetime
+   
 
 # Misal: kamu punya daftar channel/playlist sebelum dibuat jadi m3u
 # Contoh: channels = [...]  # list channel/item yang akan ditulis ke M3U
