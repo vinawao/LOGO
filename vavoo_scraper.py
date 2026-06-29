@@ -67,7 +67,8 @@ def generate_m3u_file_content(channels):
         "#EXTM3U",
         f"#EXT-X-USER-AGENT:{USER_AGENT}",
         f"#EXT-X-REFERER:{VAVOO_DOMAIN}",
-        f"#EXT-X-ORIGIN:{VAVOO_DOMAIN.rstrip('/')}"
+        f"#EXT-X-ORIGIN:{VAVOO_DOMAIN.rstrip('/')}",
+        f""
     ]
     
     created_count = 0
