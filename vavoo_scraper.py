@@ -60,14 +60,28 @@ def generate_m3u_file_content(channels):
     Converts the channel list to M3U8 format.
     """
     print("📺 Creating M3U8 content...")
+
     
     # Header information for M3U8 file
-    m3u_lines = [
-        "#EXTM3U",
-        f"#EXT-X-USER-AGENT:{USER_AGENT}",
-        f"#EXT-X-REFERER:{VAVOO_DOMAIN}",
-        f"#EXT-X-ORIGIN:{VAVOO_DOMAIN.rstrip('/')}"
-    ]
+    
+    from datetime import datetime
+
+# Misal: kamu punya daftar channel/playlist sebelum dibuat jadi m3u
+# Contoh: channels = [...]  # list channel/item yang akan ditulis ke M3U
+
+last_update = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+total_channels = len(channels)  # ganti 'channels' dengan variabel list channel kamu
+
+m3u_lines = [
+    "#EXTM3U",
+    f"#EXT-X-USER-AGENT:{USER_AGENT}",
+    f"#EXT-X-REFERER:{VAVOO_DOMAIN}",
+    f"#EXT-X-ORIGIN:{VAVOO_DOMAIN.rstrip('/')}",
+
+    f"# Last Update : {last_update}",
+    f"# Total Channels : {total_channels}",
+]
+
     
     created_count = 0
     
