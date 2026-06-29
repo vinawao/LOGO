@@ -88,9 +88,7 @@ m3u_lines = [
     ""
 ]
 
-    
-    created_count = 0
-    
+
     # Convert each channel to M3U8 format
     for channel in channels:
         try:
