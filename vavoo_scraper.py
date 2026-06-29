@@ -63,8 +63,8 @@ def generate_m3u_file_content(channels):
     print("📺 Creating M3U8 content...")
 
 
+# Header information for M3U8 file
 
-# Header information for M3U8 file 
         m3u_lines = [
         "#EXTM3U",
         f"#EXT-X-USER-AGENT:{USER_AGENT}",
@@ -74,7 +74,6 @@ def generate_m3u_file_content(channels):
     
     created_count = 0
     
-
     # Convert each channel to M3U8 format
     for channel in channels:
         try:
