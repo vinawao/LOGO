@@ -64,30 +64,16 @@ def generate_m3u_file_content(channels):
 
 
 
-# Header information for M3U8 file
+# Header information for M3U8 file 
+        m3u_lines = [
+        "#EXTM3U",
+        f"#EXT-X-USER-AGENT:{USER_AGENT}",
+        f"#EXT-X-REFERER:{VAVOO_DOMAIN}",
+        f"#EXT-X-ORIGIN:{VAVOO_DOMAIN.rstrip('/')}"
+    ]
+
+    created_count = 0
     
-
-    from datetime import datetime
-
-# Asumsi: 'channels' adalah list dari data channel yang sudah discrape
-# Contoh: channels = [{"name": "Channel 1", "url": "..." }, {"name": "Channel 2", "url": "..." }]
-
-# Persiapan data header
-last_update = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
-total_channels = len(channels)
-
-# Menyusun header M3U
-m3u_lines = [
-    "#EXTM3U",
-    f"#EXT-X-USER-AGENT:{USER_AGENT}",
-    f"#EXT-X-REFERER:{VAVOO_DOMAIN}",
-    f"#EXT-X-ORIGIN:{VAVOO_DOMAIN.rstrip('/')}",
-    "", # Memberi jarak agar lebih rapi
-    f"#EXTINF:-1, --- LAST UPDATE: {last_update} ---",
-    f"#EXTINF:-1, --- TOTAL CHANNELS: {total_channels} ---",
-    ""
-]
-
 
     # Convert each channel to M3U8 format
     for channel in channels:
@@ -115,7 +101,8 @@ m3u_lines = [
             m3u_lines.append(extinf_line)
             m3u_lines.append(m3u8_link)
             created_count += 1
-            
+
+        
         except Exception as e:
             print(f"❌ Error processing channel: {channel} - Error: {e}")
 
