@@ -1,5 +1,5 @@
 # Bu workflow'un adı
-name: Vavoo Kanal Listesi Güncelleyici
+name: Vavoo Kanal Listesi Güncelleyici Filter
 
 on:
   # Her 30 dakikada bir otomatik çalıştırır
