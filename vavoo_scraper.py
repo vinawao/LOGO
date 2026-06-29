@@ -30,19 +30,14 @@ def fetch_channel_data(url):
         'User-Agent': USER_AGENT,
         'Referer': VAVOO_DOMAIN
     }
-    
+
     try:
-        # Let's add a 15-second timeout.
         response = requests.get(url, headers=headers, timeout=15)
-        
-        # Check the HTTP 200 (Successful) status code.
         response.raise_for_status()
-        
-        # Process returned data as JSON
         data = response.json()
         print(f"✅ Successfully retrieved {len(data)} channel data.")
         return data
-        
+
     except requests.exceptions.HTTPError as e:
         print(f"❌ HTTP Error: {e}")
     except requests.exceptions.ConnectionError as e:
@@ -53,8 +48,9 @@ def fetch_channel_data(url):
         print("❌ The received data is not in JSON format.")
     except Exception as e:
         print(f"❌ An unexpected error occurred: {e}")
-        
+
     return None
+
 
 def generate_m3u_file_content(channels):
     """
@@ -62,51 +58,43 @@ def generate_m3u_file_content(channels):
     """
     print("📺 Creating M3U8 content...")
 
-# Header information for M3U8 file
+    # Header information for M3U8 file
     m3u_lines = [
         "#EXTM3U",
         f"#EXT-X-USER-AGENT:{USER_AGENT}",
         f"#EXT-X-REFERER:{VAVOO_DOMAIN}",
         f"#EXT-X-ORIGIN:{VAVOO_DOMAIN.rstrip('/')}",
-        f""
+        ""
     ]
-    
+
     created_count = 0
 
-   
-    # Convert each channel to M3U8 format
     for channel in channels:
         try:
             channel_id = channel.get('id')
             channel_name = channel.get('name', 'Unnamed Channel').strip()
-            # We are using 'country' as the group title.
             channel_group = channel.get('country', 'Other Channels').strip()
 
-            # Skip this channel if you are missing necessary information.
             if not channel_id or not channel_name:
                 print(f"⚠️ Missing information (ID or Name): {channel} - Skipped.")
                 continue
 
-            # Generate the desired URL format
-            # Example: https://vavoo.to/play/1735806851/index.m3u8
             m3u8_link = f"{BASE_PLAY_URL}{channel_id}/index.m3u8"
-            
-            # Create the EXTINF line
+
             line1 = f'#EXTINF:-1 tvg-logo="000" tvg-name="{channel_name}" group-title="{channel_group}",{channel_name}'
             line2 = '#EXTVLCOPT:http-referrer=https://vavoo.to/'
             extinf_line = line1 + '\n' + line2
 
-           
             m3u_lines.append(extinf_line)
             m3u_lines.append(m3u8_link)
             created_count += 1
 
-        
         except Exception as e:
             print(f"❌ Error processing channel: {channel} - Error: {e}")
 
     print(f"✅ {created_count} channels have been added to M3U8 format.")
     return m3u_lines, created_count
+
 
 def save_m3u_file(lines, filename):
     """
@@ -120,31 +108,48 @@ def save_m3u_file(lines, filename):
         print(f"❌ File write error: {e}")
         print("Please ensure you have write permissions for the file.")
 
+
 def main():
     """
     Main function.
     """
+    last_update = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print("🚀 VAVOO.TO M3U8 Generator Started...")
-    
+
     # Step 1: Extract the Data
     channel_data = fetch_channel_data(JSON_URL)
-    
+
     if not channel_data:
         print("❌ Channel data could not be received. Script is terminating.")
         sys.exit(1)
-        
+
+    # Sort channels by channel name (case-insensitive)
+    channel_data_sorted = sorted(
+        channel_data,
+        key=lambda x: (str(x.get('name', '')).strip().lower())
+    )
+
     # Step 2: Generate the M3U8 Content
-    m3u_content, count = generate_m3u_file_content(channel_data)
-    
+    m3u_content, count = generate_m3u_file_content(channel_data_sorted)
+
     if count == 0:
         print("❌ No valid channel found to create. Script is terminating.")
         sys.exit(1)
-        
+
+    # Tambahkan info last update di akhir file (opsional tapi diminta "bagian akhir")
+    m3u_content.append(f"# Last-Update: {last_update}")
+
     # Step 3: Save to File
     save_m3u_file(m3u_content, OUTPUT_FILE)
-    
-    print("\n🎉 Operation completed!")
+
+    # Bagian akhir: counter total channels + last update
+    total_channels = count
+    print(f"\n🎉 Operation completed!")
+    print(f"🔢 Total channels: {total_channels}")
+    print(f"🕒 Last update: {last_update}")
+
 
 # Call the main() function when the script is executed directly
 if __name__ == "__main__":
     main()
+
