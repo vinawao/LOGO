@@ -7,7 +7,7 @@ import re
 PLAYLISTS = [
     "https://raw.githubusercontent.com/BuddyChewChew/sports/refs/heads/main/liveeventsfilter.m3u8",
     "https://raw.githubusercontent.com/BuddyChewChew/My-Streams/refs/heads/main/TheTVApp.m3u8",
-    "https://raw.githubusercontent.com/vinawao/project/refs/heads/main/playlists/rctiplus.m3u"
+    "https://raw.githubusercontent.com/vinawao/project/refs/heads/main/IndihomeTV.m3u"
     # Add more playlists here in the format: "URL_TO_PLAYLIST"
 ]
 
