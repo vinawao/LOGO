@@ -6,14 +6,7 @@ import os
 
 # 1. Daftar URL Sources Anda
 URLS = [
-    'https://dplay.denstv.workers.dev/fifa01.php', 
-    'https://raw.githubusercontent.com/apistech/project/refs/heads/main/IndihomeTV.m3u', 
-    'https://dplay.denstv.workers.dev/m3u/dplay_tambahan.txt',
-    'https://php-8-5.vercel.app/MIX.txt', 
-    'https://gtv-nu.vercel.app/M3U/Kids.txt',
-    'https://2026.denstv.workers.dev/playlist/Referer.txt',
-    'https://dplay.denstv.workers.dev/m3u/sports_premium.txt', 
-    'https://dplay.denstv.workers.dev/m3u/Trace.txt', 
+    'https://mater.com.ua/ip/sport.m3u', 
     'https://dplay-silk.vercel.app/m3u/arena_sp.m3u',
 ]
 
