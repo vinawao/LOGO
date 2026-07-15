@@ -1,0 +1,38 @@
+name: Auto Update M3U Playlist Clean (Python)
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  build-and-filter:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Checkout kode dari repositori
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    # 2. Setup environment Python di runner GitHub
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    # 3. Jalankan script Python scanner.py
+    - name: Run M3U Scraper and Filter
+      run: python scanner.py
+
+    # 4. Commit dan Push kembali file 'playlist_clean.m3u' jika ada perubahan
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add playlist_clean.m3u
+        if git diff --cached --quiet; then
+          echo "Tidak ada perubahan pada channel playlist."
+        else
+          git commit -m "Update otomatis: Playlist Python Bersih [skip ci]"
+          git push
+        fi
