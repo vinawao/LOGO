@@ -2,7 +2,8 @@ name: Auto Update M3U Playlist Clean (Python)
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '30 16 */2 * *'
+      timezone: 'Asia/Makassar' 
   workflow_dispatch:
 
 jobs:
