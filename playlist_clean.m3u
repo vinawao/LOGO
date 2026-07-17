@@ -282,14 +282,6 @@ http://45.129.141.180:9981/stream/channelid/2020429400?profile=iptv.org.ua
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/877537711?profile=iptv.org.ua
 
-#EXTINF:-1 group-title="SPORT 🏆", SPORTY TV-kolo cz
-#EXTVLCOPT:network-caching=1000
-http://45.129.141.180:9981/stream/channelid/1940136002?profile=iptv.org.ua
-
-#EXTINF:-1 group-title="SPORT 🏆",SKY TENIS IT aliex2 it
-#EXTVLCOPT:network-caching=1000
-http://45.129.141.180:9981/stream/channelid/1363722412?profile=iptv.org.ua
-
 #EXTINF:-1 group-title="Vivacom BG",Nova Sport HD
 http://213.91.179.28:8000/play/a04a
 
@@ -328,33 +320,6 @@ http://213.91.179.28:8000/play/a03x
 
 #EXTINF:-1 group-title="Vivacom BG",BNT 4
 http://213.91.179.28:8000/play/a04u
-
-#EXTINF:-1 group-title="ДЖИЭНСИ-АЛЬФА (VPN)",Fast Sport
-http://37.186.70.39:40/play/80/index.m3u8
-
-#EXTINF:-1 group-title="ДЖИЭНСИ-АЛЬФА (VPN)",Матч! Футбол 1
-http://37.186.70.39:40/play/81/index.m3u8
-
-#EXTINF:-1 group-title="ДЖИЭНСИ-АЛЬФА (VPN)",Матч! Футбол 2
-http://37.186.70.39:40/play/82/index.m3u8
-
-#EXTINF:-1 group-title="ДЖИЭНСИ-АЛЬФА (VPN)",Матч! Футбол 3
-http://37.186.70.39:40/play/92/index.m3u8
-
-#EXTINF:-1 group-title="ДЖИЭНСИ-АЛЬФА (VPN)",Матч! Планета
-http://37.186.70.39:40/play/83/index.m3u8
-
-#EXTINF:-1 group-title="ДЖИЭНСИ-АЛЬФА (VPN)",Eurosport 1
-http://37.186.70.39:40/play/111/index.m3u8
-
-#EXTINF:-1 group-title="ДЖИЭНСИ-АЛЬФА (VPN)",Eurosport 2
-http://37.186.70.39:40/play/112/index.m3u8
-
-#EXTINF:-1 group-title="ДЖИЭНСИ-АЛЬФА (VPN)",КХЛ
-http://37.186.70.39:40/play/114/index.m3u8
-
-#EXTINF:-1 group-title="ДЖИЭНСИ-АЛЬФА (VPN)",БОКС ТВ
-http://37.186.70.39:40/play/85/index.m3u8
 
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Eurosport 1
 http://stream.mcquack.net/176/index.m3u8
