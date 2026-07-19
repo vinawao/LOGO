@@ -1,12 +1,9 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
-#EXTINF:-1,🛠Ревизия №-1 🚦15.07.2026|15-15|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+#EXTINF:-1,🛠Ревизия №-1 🚦18.07.2026|14-00|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
 https://vcdn.produck.company/out/ngrp:divisport_all/playlist.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Eurosport1 HD UA
-http://176.122.125.10:8080/eurosport1HD/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",X-Stream
 http://iptv.prosto.tv:7000/ch313/video.m3u8?secret=cledwwov
@@ -282,6 +279,10 @@ http://45.129.141.180:9981/stream/channelid/2020429400?profile=iptv.org.ua
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/877537711?profile=iptv.org.ua
 
+#EXTINF:-1 group-title="SPORT 🏆", SPORTY TV-kolo cz
+#EXTVLCOPT:network-caching=1000
+http://45.129.141.180:9981/stream/channelid/1940136002?profile=iptv.org.ua
+
 #EXTINF:-1 group-title="Vivacom BG",Nova Sport HD
 http://213.91.179.28:8000/play/a04a
 
@@ -500,9 +501,6 @@ http://177.52.24.163/PREMIERE-3-HD/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",PREMIERE 4
 http://177.52.24.163/PREMIERE-4-HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",NEW WORDL Sport 1 FRANCE
-http://41.205.70.146/BEINSPORT1/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Infosport+ FRANCE
 http://151.80.18.177:86/Infosport+_HD/index.m3u8
