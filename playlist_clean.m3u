@@ -122,15 +122,6 @@ http://45.145.32.13:20440/mir_basketbola/index.m3u8?token=test
 #EXTINF:-1 group-title="SPORT 🏆",Матч ТВ
 http://31.131.141.195:8000/play/1030/index.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport HD 🇫🇷
-http://99.27.51.147:8080/BeinSport/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 2 HD 🇫🇷
-http://99.27.51.147:8080/BeinSport2/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 3 HD 🇫🇷
-http://99.27.51.147:8080/BeinSport3/index.m3u8
-
 #EXTINF:-1 group-title="SPORT 🏆",Euro Sport 1 HD 🇫🇷
 http://99.27.51.147:8080/EuroSport/index.m3u8
 
@@ -282,6 +273,10 @@ http://45.129.141.180:9981/stream/channelid/877537711?profile=iptv.org.ua
 #EXTINF:-1 group-title="SPORT 🏆", SPORTY TV-kolo cz
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/1940136002?profile=iptv.org.ua
+
+#EXTINF:-1 group-title="SPORT 🏆",SKY TENIS IT aliex2 it
+#EXTVLCOPT:network-caching=1000
+http://45.129.141.180:9981/stream/channelid/1363722412?profile=iptv.org.ua
 
 #EXTINF:-1 group-title="Vivacom BG",Nova Sport HD
 http://213.91.179.28:8000/play/a04a
@@ -493,17 +488,11 @@ http://177.52.24.163/ESPN-4-HD/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",ESPN 5
 http://177.52.24.163/ESPN-5-HD/index.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",PREMIERE 1
-http://177.52.24.163/PREMIERE-1-HD/index.m3u8
-
 #EXTINF:-1 group-title="SPORT 🏆",PREMIERE 2
 http://177.52.24.163/PREMIERE-2-HD/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",PREMIERE 3
 http://177.52.24.163/PREMIERE-3-HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",PREMIERE 4
-http://177.52.24.163/PREMIERE-4-HD/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Infosport+ FRANCE
 http://151.80.18.177:86/Infosport+_HD/index.m3u8
@@ -514,14 +503,8 @@ http://151.80.18.177:86/GOLF+_HD/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",Euro Sport HD FRANCE
 http://151.80.18.177:86/Eurosport_HD/index.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport HD FRANCE
-http://99.27.51.147:8080/BeinSport/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 2 HD FRANCE
-http://99.27.51.147:8080/BeinSport2/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 3 HD FRANCE
-http://99.27.51.147:8080/BeinSport3/index.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",Euro Sport 2 HD FRANCE
+http://151.80.18.177:86/Eurosport_2_HD/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Euro Sport 1 HD FRANCE
 http://99.27.51.147:8080/EuroSport/index.m3u8
