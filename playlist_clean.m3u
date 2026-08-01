@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
-#EXTINF:-1,🛠Ревизия №-1 🚦29.07.2026|06-20|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+#EXTINF:-1,🛠Ревизия №-1 🚦31.07.2026|14-50|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
@@ -19,6 +19,27 @@ http://185.221.213.254:8080/Okko/tracks-v1a1/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",NHL (Интересные моменты)
 https://nhl-firetv.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Setanta Sports 1 Georgia
+http://158.101.222.193:88/georgia_play.php?id=setanta_georgia
+
+#EXTINF:-1 group-title="SPORT 🏆",Setanta Sports 2 Georgia
+http://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia
+
+#EXTINF:-1 group-title="SPORT 🏆",Setanta Sports 3 Georgia
+http://158.101.222.193:88/georgia_play.php?id=setanta_sports_3
+
+#EXTINF:-1 group-title="SPORT 🏆",Silk Sport 4
+http://158.101.222.193:88/georgia_play.php?id=silk_sport4
+
+#EXTINF:-1 group-title="SPORT 🏆",Viasat Sport
+http://158.101.222.193:88/georgia_play.php?id=viasatsport
+
+#EXTINF:-1 group-title="SPORT 🏆",Матч! Планета
+http://158.101.222.193:88/georgia_play.php?id=matchplaneta
+
+#EXTINF:-1 group-title="SPORT 🏆",Бокс ТВ
+http://158.101.222.193:88/georgia_play.php?id=boxtv
 
 #EXTINF:-1 group-title="SPORT 🏆",Eurosport 1 HD
 http://178.134.1.158:8081/eurosport/index.m3u8?token=tva.in.ua
@@ -208,6 +229,27 @@ https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",UNBEATEN
 https://unbeaten-tcl.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 1 HD Serbian
+https://shift03.isp.bg/Arena_Sport_1/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 2 HD Serbian
+https://shift03.isp.bg/Arena_Sport_2/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 4 HD Serbian
+https://shift03.isp.bg/Arena_Sport_4/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 5 HD Serbian
+https://shift03.isp.bg/Arena_Sport_5/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Diema Sport HD Serbian
+https://shift03.isp.bg/Diema_Sport_HD/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Diema Sport 2 HD Serbian
+https://shift03.isp.bg/Diema_Sport_2_HD/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Nova Sport HD Serbian
+https://shift03.isp.bg/NovaSport_HD/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",ONEPLAY1-kolo cz
 #EXTVLCOPT:network-caching=1000
