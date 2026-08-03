@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
-#EXTINF:-1,🛠Ревизия №-1 🚦31.07.2026|14-50|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+#EXTINF:-1,🛠Ревизия №-2 🚦02.08.2026|17-15|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
@@ -278,10 +278,6 @@ http://45.129.141.180:9981/stream/channelid/2020429400?profile=iptv.org.ua
 #EXTINF:-1 group-title="SPORT 🏆", PREMIER SPORT2 cz
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/877537711?profile=iptv.org.ua
-
-#EXTINF:-1 group-title="SPORT 🏆", SPORTY TV-kolo cz
-#EXTVLCOPT:network-caching=1000
-http://45.129.141.180:9981/stream/channelid/1940136002?profile=iptv.org.ua
 
 #EXTINF:-1 group-title="SPORT 🏆",SKY TENIS IT aliex2 it
 #EXTVLCOPT:network-caching=1000
