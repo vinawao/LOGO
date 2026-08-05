@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
-#EXTINF:-1,🛠Ревизия №-2 🚦02.08.2026|17-15|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+#EXTINF:-1,🛠Ревизия №-1 🚦05.08.2026|07-00|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
@@ -7,9 +7,6 @@ https://vcdn.produck.company/out/ngrp:divisport_all/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",X-Stream
 http://iptv.prosto.tv:7000/ch313/video.m3u8?secret=cledwwov
-
-#EXTINF:-1 group-title="SPORT 🏆",sport m
-http://newsr1.roshen.live:8080/vAu5sUNHz3/tracks-v1a1/mono.m3u8?token=XSOdznpeFPEURAYS
 
 #EXTINF:-1 group-title="SPORT 🏆",M Sport vpn
 http://5.188.159.128:8070/megogo_sport/index.m3u8
@@ -130,9 +127,6 @@ http://99.27.51.147:8080/BeinSport2/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Bein Sport 3 HD 🇫🇷
 http://99.27.51.147:8080/BeinSport3/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Euro Sport 1 HD 🇫🇷
-http://99.27.51.147:8080/EuroSport/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",ESPN Premium HD Испания 🇪🇸
 http://181.224.255.210:8001/play/a0pt/index.m3u8
@@ -278,6 +272,10 @@ http://45.129.141.180:9981/stream/channelid/2020429400?profile=iptv.org.ua
 #EXTINF:-1 group-title="SPORT 🏆", PREMIER SPORT2 cz
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/877537711?profile=iptv.org.ua
+
+#EXTINF:-1 group-title="SPORT 🏆", SPORTY TV-kolo cz
+#EXTVLCOPT:network-caching=1000
+http://45.129.141.180:9981/stream/channelid/1940136002?profile=iptv.org.ua
 
 #EXTINF:-1 group-title="SPORT 🏆",SKY TENIS IT aliex2 it
 #EXTVLCOPT:network-caching=1000
@@ -525,7 +523,4 @@ http://99.27.51.147:8080/BeinSport2/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Bein Sport 3 HD FRANCE
 http://99.27.51.147:8080/BeinSport3/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Euro Sport 1 HD FRANCE
-http://99.27.51.147:8080/EuroSport/index.m3u8
 
