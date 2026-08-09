@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
-#EXTINF:-1,🛠Ревизия №-1 🚦05.08.2026|07-00|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+#EXTINF:-1,🛠Ревизия №-1 🚦09.08.2026|06-00|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
@@ -7,6 +7,18 @@ https://vcdn.produck.company/out/ngrp:divisport_all/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",X-Stream
 http://iptv.prosto.tv:7000/ch313/video.m3u8?secret=cledwwov
+
+#EXTINF:-1 group-title="SPORT 🏆"  tvg-rec="7" timeshift="7",Setanta Sports UA
+http://ott.watch/stream/DTCEUBKDH5/313.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆"  tvg-rec="7" timeshift="7",Setanta Sports+
+http://ott.watch/stream/DTCEUBKDH5/390.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆"  tvg-rec="7" timeshift="7",Sport 1 Baltic
+http://ott.watch/stream/DTCEUBKDH5/461.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆"  tvg-rec="7" timeshift="7",Dynamo Kyiv TV
+http://ott.watch/stream/DTCEUBKDH5/396.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",sport m
 http://newsr1.roshen.live:8080/vAu5sUNHz3/tracks-v1a1/mono.m3u8?token=XSOdznpeFPEURAYS
@@ -122,17 +134,8 @@ http://45.145.32.13:20440/mir_basketbola/index.m3u8?token=test
 #EXTINF:-1 group-title="SPORT 🏆",Матч ТВ
 http://31.131.141.195:8000/play/1030/index.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport HD 🇫🇷
-http://99.27.51.147:8080/BeinSport/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 2 HD 🇫🇷
-http://99.27.51.147:8080/BeinSport2/index.m3u8
-
 #EXTINF:-1 group-title="SPORT 🏆",Bein Sport 3 HD 🇫🇷
 http://99.27.51.147:8080/BeinSport3/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Euro Sport 1 HD 🇫🇷
-http://99.27.51.147:8080/EuroSport/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",ESPN Premium HD Испания 🇪🇸
 http://181.224.255.210:8001/play/a0pt/index.m3u8
@@ -155,51 +158,6 @@ http://181.224.255.210:8001/play/a0m5/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",Turkmen Sport
 http://217.174.225.146/hls/ch004_720/index.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 1 HD
-http://178.253.194.79:10006
-
-#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 2 HD
-http://178.253.194.79:10007
-
-#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 3 HD
-http://178.253.194.79:10008
-
-#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 4 HD
-http://178.253.194.79:10009
-
-#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 5 HD
-http://178.253.194.79:10010
-
-#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 6 HD
-http://178.253.194.79:10011
-
-#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 7 HD
-http://178.253.194.79:10012
-
-#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 8 HD
-http://178.253.194.79:10013
-
-#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 1 Premium HD
-http://178.253.194.79:10001
-
-#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 2 Premium HD
-http://178.253.194.79:10004
-
-#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 3 Premium HD
-http://178.253.194.79:10005
-
-#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 4 Premium HD
-http://178.253.194.79:10016
-
-#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 5 Premium HD
-http://178.253.194.79:10017
-
-#EXTINF:-1 group-title="SPORT 🏆",Arena Tennis HD
-http://178.253.194.79:10019
-
-#EXTINF:-1 group-title="SPORT 🏆",Arena Adrenalin HD
-http://178.253.194.79:10018
-
 #EXTINF:-1 group-title="SPORT 🏆",Sports Grid
 https://sportsgrid-tribal.amagi.tv/playlist1080p.m3u8
 
@@ -220,6 +178,9 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=4610
 
 #EXTINF:-1 group-title="SPORT 🏆",UFC Network
 https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Motor sport revue HD
+https://stream.polar.cz/vctv/vctvlive-1/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Bein EXTRAS
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
@@ -476,23 +437,14 @@ http://177.52.24.163/SPORTV-1-HD/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",SPORTV 2
 http://177.52.24.163/SPORTV-2-HD/index.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",SPORTV 3
-http://177.52.24.163/SPORTV-3-HD/index.m3u8
-
 #EXTINF:-1 group-title="SPORT 🏆",ESPN 1
 http://177.52.24.163/ESPN-1-HD/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",ESPN 2
 http://177.52.24.163/ESPN-2-HD/index.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",ESPN 3
-http://177.52.24.163/ESPN-3-HD/index.m3u8
-
 #EXTINF:-1 group-title="SPORT 🏆",ESPN 4
 http://177.52.24.163/ESPN-4-HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",ESPN 5
-http://177.52.24.163/ESPN-5-HD/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",PREMIERE 1
 http://177.52.24.163/PREMIERE-1-HD/index.m3u8
@@ -518,15 +470,6 @@ http://151.80.18.177:86/Eurosport_HD/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",Euro Sport 2 HD FRANCE
 http://151.80.18.177:86/Eurosport_2_HD/index.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport HD FRANCE
-http://99.27.51.147:8080/BeinSport/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 2 HD FRANCE
-http://99.27.51.147:8080/BeinSport2/index.m3u8
-
 #EXTINF:-1 group-title="SPORT 🏆",Bein Sport 3 HD FRANCE
 http://99.27.51.147:8080/BeinSport3/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Euro Sport 1 HD FRANCE
-http://99.27.51.147:8080/EuroSport/index.m3u8
 
