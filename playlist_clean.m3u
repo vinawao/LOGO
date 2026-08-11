@@ -134,8 +134,17 @@ http://45.145.32.13:20440/mir_basketbola/index.m3u8?token=test
 #EXTINF:-1 group-title="SPORT 🏆",Матч ТВ
 http://31.131.141.195:8000/play/1030/index.m3u8
 
+#EXTINF:-1 group-title="SPORT 🏆",Bein Sport HD 🇫🇷
+http://99.27.51.147:8080/BeinSport/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 2 HD 🇫🇷
+http://99.27.51.147:8080/BeinSport2/index.m3u8
+
 #EXTINF:-1 group-title="SPORT 🏆",Bein Sport 3 HD 🇫🇷
 http://99.27.51.147:8080/BeinSport3/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Euro Sport 1 HD 🇫🇷
+http://99.27.51.147:8080/EuroSport/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",ESPN Premium HD Испания 🇪🇸
 http://181.224.255.210:8001/play/a0pt/index.m3u8
@@ -437,14 +446,23 @@ http://177.52.24.163/SPORTV-1-HD/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",SPORTV 2
 http://177.52.24.163/SPORTV-2-HD/index.m3u8
 
+#EXTINF:-1 group-title="SPORT 🏆",SPORTV 3
+http://177.52.24.163/SPORTV-3-HD/index.m3u8
+
 #EXTINF:-1 group-title="SPORT 🏆",ESPN 1
 http://177.52.24.163/ESPN-1-HD/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",ESPN 2
 http://177.52.24.163/ESPN-2-HD/index.m3u8
 
+#EXTINF:-1 group-title="SPORT 🏆",ESPN 3
+http://177.52.24.163/ESPN-3-HD/index.m3u8
+
 #EXTINF:-1 group-title="SPORT 🏆",ESPN 4
 http://177.52.24.163/ESPN-4-HD/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",ESPN 5
+http://177.52.24.163/ESPN-5-HD/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",PREMIERE 1
 http://177.52.24.163/PREMIERE-1-HD/index.m3u8
@@ -470,6 +488,15 @@ http://151.80.18.177:86/Eurosport_HD/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",Euro Sport 2 HD FRANCE
 http://151.80.18.177:86/Eurosport_2_HD/index.m3u8
 
+#EXTINF:-1 group-title="SPORT 🏆",Bein Sport HD FRANCE
+http://99.27.51.147:8080/BeinSport/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 2 HD FRANCE
+http://99.27.51.147:8080/BeinSport2/index.m3u8
+
 #EXTINF:-1 group-title="SPORT 🏆",Bein Sport 3 HD FRANCE
 http://99.27.51.147:8080/BeinSport3/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Euro Sport 1 HD FRANCE
+http://99.27.51.147:8080/EuroSport/index.m3u8
 
