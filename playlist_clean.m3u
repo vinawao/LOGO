@@ -20,9 +20,6 @@ http://ott.watch/stream/DTCEUBKDH5/461.m3u8
 #EXTINF:-1 group-title="SPORT 🏆"  tvg-rec="7" timeshift="7",Dynamo Kyiv TV
 http://ott.watch/stream/DTCEUBKDH5/396.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",sport m
-http://newsr1.roshen.live:8080/vAu5sUNHz3/tracks-v1a1/mono.m3u8?token=XSOdznpeFPEURAYS
-
 #EXTINF:-1 group-title="SPORT 🏆",M Sport vpn
 http://5.188.159.128:8070/megogo_sport/index.m3u8
 
@@ -356,9 +353,6 @@ http://stream.mcquack.net/394/index.m3u8
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Sport 5
 http://stream.mcquack.net/212/index.m3u8
 
-#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Dynamo Kyiv TV
-http://stream.mcquack.net/396/index.m3u8
-
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Trace Sports
 http://stream.mcquack.net/256/index.m3u8
 
@@ -484,9 +478,6 @@ http://151.80.18.177:86/GOLF+_HD/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Euro Sport HD FRANCE
 http://151.80.18.177:86/Eurosport_HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Euro Sport 2 HD FRANCE
-http://151.80.18.177:86/Eurosport_2_HD/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Bein Sport HD FRANCE
 http://99.27.51.147:8080/BeinSport/index.m3u8
