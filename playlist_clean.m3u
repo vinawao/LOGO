@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
-#EXTINF:-1,🛠Ревизия №-1 🚦09.08.2026|06-00|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+#EXTINF:-1,🛠Ревизия №-1 🚦14.08.2026|20-21|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
@@ -19,6 +19,9 @@ http://ott.watch/stream/DTCEUBKDH5/461.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆"  tvg-rec="7" timeshift="7",Dynamo Kyiv TV
 http://ott.watch/stream/DTCEUBKDH5/396.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",sport m
+http://newsr1.roshen.live:8080/vAu5sUNHz3/tracks-v1a1/mono.m3u8?token=XSOdznpeFPEURAYS
 
 #EXTINF:-1 group-title="SPORT 🏆",M Sport vpn
 http://5.188.159.128:8070/megogo_sport/index.m3u8
@@ -353,6 +356,9 @@ http://stream.mcquack.net/394/index.m3u8
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Sport 5
 http://stream.mcquack.net/212/index.m3u8
 
+#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Dynamo Kyiv TV
+http://stream.mcquack.net/396/index.m3u8
+
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Trace Sports
 http://stream.mcquack.net/256/index.m3u8
 
@@ -394,45 +400,6 @@ http://stream.mcquack.net/279/index.m3u8
 
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Qazsport
 http://stream.mcquack.net/72/index.m3u8
-
-#EXTINF:1 group-title="Sport-Test",Sportv +
-http://znty.dyndns.org:5010/hls/sportv+.m3u8
-
-#EXTINF:1 group-title="Sport-Test",Sport TV 1
-http://znty.dyndns.org:5010/hls/stv1.m3u8
-
-#EXTINF:1 group-title="Sport-Test",Sport TV 2
-http://znty.dyndns.org:5010/hls/stv2.m3u8
-
-#EXTINF:1 group-title="Sport-Test",SPORT TV5
-http://znty.dyndns.org:5010/hls/stv5.m3u8
-
-#EXTINF:1 group-title="Sport-Test",Sporting TV
-http://znty.dyndns.org:5010/hls/sporting.m3u8
-
-#EXTINF:1 group-title="Sport-Test",Benfica TV
-http://znty.dyndns.org:5010/hls/btv.m3u8
-
-#EXTINF:1 group-title="Sport-Test",DAZN 1
-http://znty.dyndns.org:5010/hls/eleven1.m3u8
-
-#EXTINF:1 group-title="Sport-Test",DAZN 2
-http://znty.dyndns.org:5010/hls/eleven2.m3u8
-
-#EXTINF:1 group-title="Sport-Test",DAZN 3
-http://znty.dyndns.org:5010/hls/eleven3.m3u8
-
-#EXTINF:1 group-title="Sport-Test",DAZN 4
-http://znty.dyndns.org:5010/hls/eleven4.m3u8
-
-#EXTINF:1 group-title="Sport-Test",DAZN 5
-http://znty.dyndns.org:5010/hls/eleven5.m3u8
-
-#EXTINF:1 group-title="Sport-Test",DAZN 5
-http://znty.dyndns.org:5010/hls/eleven5.m3u8
-
-#EXTINF:1 group-title="Sport-Test",Eurosport 1
-http://znty.dyndns.org:5010/hls/eurosport.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",SPORTV 1
 http://177.52.24.163/SPORTV-1-HD/index.m3u8
@@ -479,6 +446,9 @@ http://151.80.18.177:86/GOLF+_HD/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",Euro Sport HD FRANCE
 http://151.80.18.177:86/Eurosport_HD/index.m3u8
 
+#EXTINF:-1 group-title="SPORT 🏆",Euro Sport 2 HD FRANCE
+http://151.80.18.177:86/Eurosport_2_HD/index.m3u8
+
 #EXTINF:-1 group-title="SPORT 🏆",Bein Sport HD FRANCE
 http://99.27.51.147:8080/BeinSport/index.m3u8
 
@@ -490,4 +460,28 @@ http://99.27.51.147:8080/BeinSport3/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Euro Sport 1 HD FRANCE
 http://99.27.51.147:8080/EuroSport/index.m3u8
+
+#EXTINF:-1 group-title="Uplink (VPN)",KHL Prime
+https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv
+
+#EXTINF:-1 group-title="Uplink (VPN)",KHL
+https://fs.uplink.kz/telekanal_khl/mono.m3u8?token=onlinetv
+
+#EXTINF:-1 group-title="Uplink (VPN)",Матч ТВ
+https://fs.uplink.kz/match/mono.m3u8?token=onlinetv
+
+#EXTINF:-1 group-title="Uplink (VPN)",Матч! Планета
+https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv
+
+#EXTINF:-1 group-title="Uplink (VPN)",Viasat Sports
+https://fs.uplink.kz/viju_sport/mono.m3u8?token=onlinetv
+
+#EXTINF:-1 group-title="Uplink (VPN)",MMA-TV
+https://fs.uplink.kz/mma/mono.m3u8?token=onlinetv
+
+#EXTINF:-1 group-title="Uplink (VPN)",Etreme sports
+https://fs.uplink.kz/extreme_sports/mono.m3u8?token=onlinetv
+
+#EXTINF:-1 group-title="Uplink (VPN)",Qazsport HD
+https://fs.uplink.kz/qazsport_hd/mono.m3u8?token=onlinetv
 
