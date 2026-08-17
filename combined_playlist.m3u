@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-# Generated on 2026-08-17T15:25:37.441127 UTC
+# Generated on 2026-08-17T16:28:01.450542 UTC
 
 #PLAYLIST:x liveeventsfilter
 #EXTGRP:x liveeventsfilter
@@ -551,6 +551,12 @@ https://v16.thetvapp.to/hls/mlb14/tracks-v1a1/mono.m3u8?token=2EUE7ZUKHknxt16oNK
 https://v15.thetvapp.to/hls/mlb15/tracks-v1a1/mono.m3u8?token=zzJCNIzr7g_6JhYh9dK7-w&expires=1780740187&user_id=VG84Z3M0cURxNGtFV1hCY0RrYmo2aHNMamgydFFXNkxQY3ZqT215bQ==
 #EXTINF:-1 tvg-id="MLB.Baseball.Dummy.us" tvg-name="Los Angeles Angels vs Los Angeles Dodgers @ Jun 5 10:10 PM - 6/6/26, 2:10:00 AM UTC HD" tvg-logo="http://drewlive24.duckdns.org:9000/Logos/Baseball-2.png" group-title="TheTVApp - MLB",Los Angeles Angels vs Los Angeles Dodgers @ Jun 5 10:10 PM - 6/6/26 - 2:10:00 AM UTC HD
 https://v18.thetvapp.to/hls/mlb15/tracks-v1a1/mono.m3u8?token=XpTAjw_BnQtnML4764sc8w&expires=1780740193&user_id=VG84Z3M0cURxNGtFV1hCY0RrYmo2aHNMamgydFFXNkxQY3ZqT215bQ==
+
+
+==================================================
+
+#PLAYLIST:x IndihomeTV
+#EXTGRP:x IndihomeTV
 
 
 ==================================================
