@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
-#EXTINF:-1,🛠Ревизия №-1 🚦14.08.2026|20-21|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+#EXTINF:-1,🛠Ревизия №-1 🚦17.08.2026|17-35|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
@@ -31,27 +31,6 @@ http://185.221.213.254:8080/Okko/tracks-v1a1/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",NHL (Интересные моменты)
 https://nhl-firetv.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Setanta Sports 1 Georgia
-http://158.101.222.193:88/georgia_play.php?id=setanta_georgia
-
-#EXTINF:-1 group-title="SPORT 🏆",Setanta Sports 2 Georgia
-http://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia
-
-#EXTINF:-1 group-title="SPORT 🏆",Setanta Sports 3 Georgia
-http://158.101.222.193:88/georgia_play.php?id=setanta_sports_3
-
-#EXTINF:-1 group-title="SPORT 🏆",Silk Sport 4
-http://158.101.222.193:88/georgia_play.php?id=silk_sport4
-
-#EXTINF:-1 group-title="SPORT 🏆",Viasat Sport
-http://158.101.222.193:88/georgia_play.php?id=viasatsport
-
-#EXTINF:-1 group-title="SPORT 🏆",Матч! Планета
-http://158.101.222.193:88/georgia_play.php?id=matchplaneta
-
-#EXTINF:-1 group-title="SPORT 🏆",Бокс ТВ
-http://158.101.222.193:88/georgia_play.php?id=boxtv
 
 #EXTINF:-1 group-title="SPORT 🏆",Eurosport 1 HD
 http://178.134.1.158:8081/eurosport/index.m3u8?token=tva.in.ua
@@ -178,6 +157,9 @@ https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",TOP Barca
 https://amg17560-fcb-amg17560c1-rakuten-uk-4891.playouts.now.amagi.tv/playlist/amg17560-fcbarcelona-topbarcaenglish-rakutenuk/playlist.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",CANAL MOTOR
+http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",AYM HD
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4610
@@ -425,9 +407,6 @@ https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Uplink (VPN)",KHL
 https://fs.uplink.kz/telekanal_khl/mono.m3u8?token=onlinetv
 
-#EXTINF:-1 group-title="Uplink (VPN)",Матч ТВ
-https://fs.uplink.kz/match/mono.m3u8?token=onlinetv
-
 #EXTINF:-1 group-title="Uplink (VPN)",Матч! Планета
 https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv
 
@@ -442,4 +421,109 @@ https://fs.uplink.kz/extreme_sports/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 group-title="Uplink (VPN)",Qazsport HD
 https://fs.uplink.kz/qazsport_hd/mono.m3u8?token=onlinetv
+
+#EXTINF:-1 group-title="SPORT 🏆-2",eurosport1
+http://188.138.29.131:80/eurosport1/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",eurosport2
+http://188.138.29.131:80/eurosport2/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",espn
+http://188.138.29.131:80/espn/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",football1
+http://188.138.29.131:80/football1/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",football2
+http://188.138.29.131:80/football2/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",football3
+http://188.138.29.131:80/football3/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",khlhd
+http://188.138.29.131:80/khlhd/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",match
+http://188.138.29.131:80/match/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",matcharena
+http://188.138.29.131:80/matcharena/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",matchigra
+http://188.138.29.131:80/matchigra/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",matchplaneta
+http://188.138.29.131:80/matchplaneta/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",mmatv
+http://188.138.29.131:80/mmatv/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",nashfootball
+http://188.138.29.131:80/nashfootball/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",nba
+http://188.138.29.131:80/nba/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",setanta1
+http://188.138.29.131:80/setanta1/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",setanta2
+http://188.138.29.131:80/setanta2/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",setantaplus ua
+http://188.138.29.131:80/setantaplus/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",setantaua
+http://188.138.29.131:80/setantaua/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",skysportsf1
+http://188.138.29.131:80/skysportsf1/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",ufctv
+http://188.138.29.131:80/ufctv/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",viasatsport
+http://188.138.29.131:80/viasatsport/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",tntsport3
+http://188.138.29.131:80/tntsport3/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",tntsport2
+http://188.138.29.131:80/tntsport2/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",tntsport1
+http://188.138.29.131:80/tntsport1/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",boetstv
+http://188.138.29.131:80/boetstv/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",skygolf
+http://188.138.29.131:80/skygolf/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",skyfootball
+http://188.138.29.131:80/skyfootball/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",skymix
+http://188.138.29.131:80/skymix/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",nbcsn
+http://188.138.29.131:80/nbcsn/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",mmatv
+http://188.138.29.131:80/mmatv/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",foxsports2
+http://188.138.29.131:80/foxsports2/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",start
+http://188.138.29.131:80/start/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",nhl
+http://188.138.29.131:80/nhl/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",belarus5
+http://188.138.29.131:80/belarus5/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆-2",bokstv
+http://188.138.29.131:80/bokstv/index.m3u8
 
