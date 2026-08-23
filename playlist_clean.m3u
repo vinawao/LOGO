@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
-#EXTINF:-1,🛠Ревизия №-1 🚦17.08.2026|17-35|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+#EXTINF:-1,🛠Ревизия №-1 🚦22.08.2026|12-05|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
@@ -406,6 +406,9 @@ https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 group-title="Uplink (VPN)",KHL
 https://fs.uplink.kz/telekanal_khl/mono.m3u8?token=onlinetv
+
+#EXTINF:-1 group-title="Uplink (VPN)",Матч ТВ
+https://fs.uplink.kz/match/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 group-title="Uplink (VPN)",Матч! Планета
 https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv
