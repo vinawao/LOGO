@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
-#EXTINF:-1,🛠Ревизия №-1 🚦22.08.2026|12-05|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+#EXTINF:-1,🛠Ревизия №-1 🚦24.08.2026|12-20|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
@@ -7,18 +7,6 @@ https://vcdn.produck.company/out/ngrp:divisport_all/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",X-Stream
 http://iptv.prosto.tv:7000/ch313/video.m3u8?secret=cledwwov
-
-#EXTINF:-1 group-title="SPORT 🏆"  tvg-rec="7" timeshift="7",Setanta Sports UA
-http://ott.watch/stream/DTCEUBKDH5/313.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆"  tvg-rec="7" timeshift="7",Setanta Sports+
-http://ott.watch/stream/DTCEUBKDH5/390.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆"  tvg-rec="7" timeshift="7",Sport 1 Baltic
-http://ott.watch/stream/DTCEUBKDH5/461.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆"  tvg-rec="7" timeshift="7",Dynamo Kyiv TV
-http://ott.watch/stream/DTCEUBKDH5/396.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",sport m
 http://newsr1.roshen.live:8080/vAu5sUNHz3/tracks-v1a1/mono.m3u8?token=XSOdznpeFPEURAYS
@@ -197,18 +185,6 @@ https://shift03.isp.bg/Diema_Sport_2_HD/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",Nova Sport HD Serbian
 https://shift03.isp.bg/NovaSport_HD/index.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",ONEPLAY1-kolo cz
-#EXTVLCOPT:network-caching=1000
-http://45.129.141.180:9981/stream/channelid/177253733?profile=iptv.org.ua
-
-#EXTINF:-1 group-title="SPORT 🏆",ONEPLAY2-kolo cz
-#EXTVLCOPT:network-caching=1000
-http://45.129.141.180:9981/stream/channelid/1716506983?profile=iptv.org.ua
-
-#EXTINF:-1 group-title="SPORT 🏆", ONEPLAY3-kolo cz
-#EXTVLCOPT:network-caching=1000
-http://45.129.141.180:9981/stream/channelid/1597775099?profile=iptv.org.ua
-
 #EXTINF:-1 group-title="SPORT 🏆", EUROSPORT1-ali3 cz
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/718615486?profile=iptv.org.ua
@@ -216,14 +192,6 @@ http://45.129.141.180:9981/stream/channelid/718615486?profile=iptv.org.ua
 #EXTINF:-1 group-title="SPORT 🏆", EUROSPORT2-ali3 cz
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/737993602?profile=iptv.org.ua
-
-#EXTINF:-1 group-title="SPORT 🏆", PREMIER SPORT1 cz
-#EXTVLCOPT:network-caching=1000
-http://45.129.141.180:9981/stream/channelid/2020429400?profile=iptv.org.ua
-
-#EXTINF:-1 group-title="SPORT 🏆", PREMIER SPORT2 cz
-#EXTVLCOPT:network-caching=1000
-http://45.129.141.180:9981/stream/channelid/877537711?profile=iptv.org.ua
 
 #EXTINF:-1 group-title="SPORT 🏆", SPORTY TV-kolo cz
 #EXTVLCOPT:network-caching=1000
@@ -340,42 +308,6 @@ http://stream.mcquack.net/279/index.m3u8
 
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Qazsport
 http://stream.mcquack.net/72/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",SPORTV 1
-http://177.52.24.163/SPORTV-1-HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",SPORTV 2
-http://177.52.24.163/SPORTV-2-HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",SPORTV 3
-http://177.52.24.163/SPORTV-3-HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",ESPN 1
-http://177.52.24.163/ESPN-1-HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",ESPN 2
-http://177.52.24.163/ESPN-2-HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",ESPN 3
-http://177.52.24.163/ESPN-3-HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",ESPN 4
-http://177.52.24.163/ESPN-4-HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",ESPN 5
-http://177.52.24.163/ESPN-5-HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",PREMIERE 1
-http://177.52.24.163/PREMIERE-1-HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",PREMIERE 2
-http://177.52.24.163/PREMIERE-2-HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",PREMIERE 3
-http://177.52.24.163/PREMIERE-3-HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",PREMIERE 4
-http://177.52.24.163/PREMIERE-4-HD/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Infosport+ FRANCE
 http://151.80.18.177:86/Infosport+_HD/index.m3u8
