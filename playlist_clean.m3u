@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
-#EXTINF:-1,🛠Ревизия №-1 🚦24.08.2026|12-20|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+#EXTINF:-1,🛠Ревизия №-3 🚦27.08.2026|17-15|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
@@ -19,6 +19,9 @@ http://185.221.213.254:8080/Okko/tracks-v1a1/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",NHL (Интересные моменты)
 https://nhl-firetv.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Setanta Ukraine HD
+http://dtv.vol.net.ua/Setanta_Sports/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Eurosport 1 HD
 http://178.134.1.158:8081/eurosport/index.m3u8?token=tva.in.ua
@@ -101,17 +104,8 @@ http://45.145.32.13:20440/mir_basketbola/index.m3u8?token=test
 #EXTINF:-1 group-title="SPORT 🏆",Матч ТВ
 http://31.131.141.195:8000/play/1030/index.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport HD 🇫🇷
-http://99.27.51.147:8080/BeinSport/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 2 HD 🇫🇷
-http://99.27.51.147:8080/BeinSport2/index.m3u8
-
 #EXTINF:-1 group-title="SPORT 🏆",Bein Sport 3 HD 🇫🇷
 http://99.27.51.147:8080/BeinSport3/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Euro Sport 1 HD 🇫🇷
-http://99.27.51.147:8080/EuroSport/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",ESPN Premium HD Испания 🇪🇸
 http://181.224.255.210:8001/play/a0pt/index.m3u8
@@ -164,26 +158,17 @@ https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",UNBEATEN
 https://unbeaten-tcl.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 1 HD Serbian
-https://shift03.isp.bg/Arena_Sport_1/index.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",ONEPLAY1-kolo cz
+#EXTVLCOPT:network-caching=1000
+http://45.129.141.180:9981/stream/channelid/177253733?profile=iptv.org.ua
 
-#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 2 HD Serbian
-https://shift03.isp.bg/Arena_Sport_2/index.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",ONEPLAY2-kolo cz
+#EXTVLCOPT:network-caching=1000
+http://45.129.141.180:9981/stream/channelid/1716506983?profile=iptv.org.ua
 
-#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 4 HD Serbian
-https://shift03.isp.bg/Arena_Sport_4/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Arena Sport 5 HD Serbian
-https://shift03.isp.bg/Arena_Sport_5/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Diema Sport HD Serbian
-https://shift03.isp.bg/Diema_Sport_HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Diema Sport 2 HD Serbian
-https://shift03.isp.bg/Diema_Sport_2_HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Nova Sport HD Serbian
-https://shift03.isp.bg/NovaSport_HD/index.m3u8
+#EXTINF:-1 group-title="SPORT 🏆", ONEPLAY3-kolo cz
+#EXTVLCOPT:network-caching=1000
+http://45.129.141.180:9981/stream/channelid/1597775099?profile=iptv.org.ua
 
 #EXTINF:-1 group-title="SPORT 🏆", EUROSPORT1-ali3 cz
 #EXTVLCOPT:network-caching=1000
@@ -193,9 +178,13 @@ http://45.129.141.180:9981/stream/channelid/718615486?profile=iptv.org.ua
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/737993602?profile=iptv.org.ua
 
-#EXTINF:-1 group-title="SPORT 🏆", SPORTY TV-kolo cz
+#EXTINF:-1 group-title="SPORT 🏆", PREMIER SPORT1 cz
 #EXTVLCOPT:network-caching=1000
-http://45.129.141.180:9981/stream/channelid/1940136002?profile=iptv.org.ua
+http://45.129.141.180:9981/stream/channelid/2020429400?profile=iptv.org.ua
+
+#EXTINF:-1 group-title="SPORT 🏆", PREMIER SPORT2 cz
+#EXTVLCOPT:network-caching=1000
+http://45.129.141.180:9981/stream/channelid/877537711?profile=iptv.org.ua
 
 #EXTINF:-1 group-title="SPORT 🏆",SKY TENIS IT aliex2 it
 #EXTVLCOPT:network-caching=1000
@@ -321,17 +310,8 @@ http://151.80.18.177:86/Eurosport_HD/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",Euro Sport 2 HD FRANCE
 http://151.80.18.177:86/Eurosport_2_HD/index.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport HD FRANCE
-http://99.27.51.147:8080/BeinSport/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 2 HD FRANCE
-http://99.27.51.147:8080/BeinSport2/index.m3u8
-
 #EXTINF:-1 group-title="SPORT 🏆",Bein Sport 3 HD FRANCE
 http://99.27.51.147:8080/BeinSport3/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Euro Sport 1 HD FRANCE
-http://99.27.51.147:8080/EuroSport/index.m3u8
 
 #EXTINF:-1 group-title="Uplink (VPN)",KHL Prime
 https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv
@@ -356,4 +336,25 @@ https://fs.uplink.kz/extreme_sports/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 group-title="Uplink (VPN)",Qazsport HD
 https://fs.uplink.kz/qazsport_hd/mono.m3u8?token=onlinetv
+
+#EXTINF:-1 group-title="Individual Entrepreneur",Viasat Sport
+http://46.8.46.14/viasport/index.m3u8
+
+#EXTINF:-1 group-title="Individual Entrepreneur",KHL
+http://46.8.46.14/khl/index.m3u8
+
+#EXTINF:-1 group-title="Individual Entrepreneur",Матч! Арена
+http://46.8.46.14/arena/index.m3u8
+
+#EXTINF:-1 group-title="Individual Entrepreneur",Матч ТВ
+http://46.8.46.14/match/index.m3u8
+
+#EXTINF:-1 group-title="Individual Entrepreneur",Матч! Игра
+http://46.8.46.14/eurosport/index.m3u8
+
+#EXTINF:-1 group-title="Individual Entrepreneur",Матч! Боец
+http://46.8.46.14/boec/index.m3u8
+
+#EXTINF:-1 group-title="Individual Entrepreneur",Матч Премьер
+http://46.8.46.14/premier/index.m3u8
 
