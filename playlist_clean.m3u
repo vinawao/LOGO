@@ -185,6 +185,10 @@ http://45.129.141.180:9981/stream/channelid/737993602?profile=iptv.org.ua
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/2020429400?profile=iptv.org.ua
 
+#EXTINF:-1 group-title="SPORT 🏆", PREMIER SPORT2 cz
+#EXTVLCOPT:network-caching=1000
+http://45.129.141.180:9981/stream/channelid/877537711?profile=iptv.org.ua
+
 #EXTINF:-1 group-title="SPORT 🏆",SKY TENIS IT aliex2 it
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/1363722412?profile=iptv.org.ua
