@@ -50,62 +50,8 @@ https://stream8.cinerama.uz/1422/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",EUROSPORT 1
 https://stream8.cinerama.uz/1439/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",Матч HD
-http://45.145.32.13:20440/match_hd/index.m3u8?token=test
-
-#EXTINF:-1 group-title="SPORT 🏆",Матч ТВ
-http://45.145.32.13:20440/match/index.m3u8?token=test
-
-#EXTINF:-1 group-title="SPORT 🏆",sport Арена
-http://45.145.32.13:20440/match_arena/index.m3u8?token=test
-
-#EXTINF:-1 group-title="SPORT 🏆",sport Арена HD
-http://45.145.32.13:20440/match_arena_hd/index.m3u8?token=test
-
-#EXTINF:-1 group-title="SPORT 🏆",sport Боец
-http://45.145.32.13:20440/match_boets/index.m3u8?token=test
-
-#EXTINF:-1 group-title="SPORT 🏆",sport Игра
-http://45.145.32.13:20440/match_igra/index.m3u8?token=test
-
-#EXTINF:-1 group-title="SPORT 🏆",sport Игра HD
-http://45.145.32.13:20440/match_igra_hd/index.m3u8?token=test
-
-#EXTINF:-1 group-title="SPORT 🏆",sport Страна
-http://45.145.32.13:20440/match_strana/index.m3u8?token=test
-
-#EXTINF:-1 group-title="SPORT 🏆",sport Футбол 1
-http://45.145.32.13:20440/match_football1/index.m3u8?token=test
-
-#EXTINF:-1 group-title="SPORT 🏆",sport Футбол 1 HD
-http://45.145.32.13:20440/match_futbol_1_hd/index.m3u8?token=test
-
-#EXTINF:-1 group-title="SPORT 🏆",sport Футбол 2
-http://45.145.32.13:20440/match_football2/index.m3u8?token=test
-
-#EXTINF:-1 group-title="SPORT 🏆",sport Футбол 2 HD
-http://45.145.32.13:20440/match_futbol_2_hd/index.m3u8?token=test
-
-#EXTINF:-1 group-title="SPORT 🏆",sport Футбол 3
-http://45.145.32.13:20440/match_football3/index.m3u8?token=test
-
-#EXTINF:-1 group-title="SPORT 🏆",sport Футбол 3 HD
-http://45.145.32.13:20440/match_futbol_3_hd/index.m3u8?token=test
-
-#EXTINF:-1 group-title="SPORT 🏆",Мир баскетбола
-http://45.145.32.13:20440/mir_basketbola/index.m3u8?token=test
-
 #EXTINF:-1 group-title="SPORT 🏆",Матч ТВ
 http://31.131.141.195:8000/play/1030/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport HD 🇫🇷
-http://99.27.51.147:8080/BeinSport/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 2 HD 🇫🇷
-http://99.27.51.147:8080/BeinSport2/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 3 HD 🇫🇷
-http://99.27.51.147:8080/BeinSport3/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Euro Sport 1 HD 🇫🇷
 http://99.27.51.147:8080/EuroSport/index.m3u8
@@ -232,12 +178,6 @@ http://stream.mcquack.net/234/index.m3u8
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Setanta Sports 2
 http://stream.mcquack.net/235/index.m3u8
 
-#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Setanta Sports UA
-http://stream.mcquack.net/313/index.m3u8
-
-#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Setanta Sports+
-http://stream.mcquack.net/390/index.m3u8
-
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Sport 1 Baltic
 http://stream.mcquack.net/461/index.m3u8
 
@@ -306,15 +246,6 @@ http://151.80.18.177:86/Eurosport_HD/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Euro Sport 2 HD FRANCE
 http://151.80.18.177:86/Eurosport_2_HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport HD FRANCE
-http://99.27.51.147:8080/BeinSport/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 2 HD FRANCE
-http://99.27.51.147:8080/BeinSport2/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 3 HD FRANCE
-http://99.27.51.147:8080/BeinSport3/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Euro Sport 1 HD FRANCE
 http://99.27.51.147:8080/EuroSport/index.m3u8
