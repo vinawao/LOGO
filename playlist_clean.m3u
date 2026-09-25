@@ -1,9 +1,21 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
+#EXTINF:-1,🛠Ревизия №-1 🚦25.09.2026|10-00|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Divi Sport
+https://vcdn.produck.company/out/ngrp:divisport_all/playlist.m3u8
+
 #EXTINF:-1 group-title="SPORT 🏆",X-Stream
 http://iptv.prosto.tv:7000/ch313/video.m3u8?secret=cledwwov
 
 #EXTINF:-1 group-title="SPORT 🏆",sport m
 http://newsr1.roshen.live:8080/vAu5sUNHz3/tracks-v1a1/mono.m3u8?token=XSOdznpeFPEURAYS
+
+#EXTINF:-1 group-title="SPORT 🏆",M Sport vpn
+http://5.188.159.128:8070/megogo_sport/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Окко Спорт 2
+http://185.221.213.254:8080/Okko/tracks-v1a1/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",NHL (Интересные моменты)
 https://nhl-firetv.amagi.tv/playlist.m3u8
@@ -43,18 +55,6 @@ https://stream8.cinerama.uz/1439/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Матч ТВ
 http://31.131.141.195:8000/play/1030/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport HD 🇫🇷
-http://99.27.51.147:8080/BeinSport/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 2 HD 🇫🇷
-http://99.27.51.147:8080/BeinSport2/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 3 HD 🇫🇷
-http://99.27.51.147:8080/BeinSport3/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Euro Sport 1 HD 🇫🇷
-http://99.27.51.147:8080/EuroSport/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",ESPN Premium HD Испания 🇪🇸
 http://181.224.255.210:8001/play/a0pt/index.m3u8
@@ -199,6 +199,9 @@ http://stream.mcquack.net/212/index.m3u8
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Dynamo Kyiv TV
 http://stream.mcquack.net/396/index.m3u8
 
+#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Trace Sports
+http://stream.mcquack.net/256/index.m3u8
+
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Суспільне Спорт
 http://stream.mcquack.net/444/index.m3u8
 
@@ -246,18 +249,6 @@ http://151.80.18.177:86/Eurosport_HD/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Euro Sport 2 HD FRANCE
 http://151.80.18.177:86/Eurosport_2_HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport HD FRANCE
-http://99.27.51.147:8080/BeinSport/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 2 HD FRANCE
-http://99.27.51.147:8080/BeinSport2/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Bein Sport 3 HD FRANCE
-http://99.27.51.147:8080/BeinSport3/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Euro Sport 1 HD FRANCE
-http://99.27.51.147:8080/EuroSport/index.m3u8
 
 #EXTINF:-1 group-title="Uplink (VPN)",KHL Prime
 https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv
@@ -397,12 +388,66 @@ http://89.33.29.115:8080/sport1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Interhost", СПОРТ+
 http://89.33.29.115:8080/sportplus/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 group-title="Interhost", Сетанта Спорт+ Украина
-http://89.33.29.115:8080/Setanta_SportsHD_UA/tracks-v1a1/mono.m3u8
-
 #EXTINF:-1 group-title="Interhost", Viasat Sport
 http://89.33.29.115:8080/Viasat_Sport/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 group-title="Interhost", Setanta Eurasia HD
-http://89.33.29.115:8080/SetantaEurasia/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ ПРЕМЬЕР
+http://185.195.184.30:8000/play/a00u/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ! HD
+http://185.195.184.30:8000/play/a048/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ! БОЕЦ
+http://185.195.184.30:8000/play/a056/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ! ФУТБОЛ 1
+http://185.195.184.30:8000/play/a00m/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ! ФУТБОЛ 2
+http://185.195.184.30:8000/play/a00n/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ! ФУТБОЛ 3
+http://185.195.184.30:8000/play/a00o/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ! АРЕНА
+http://185.195.184.30:8000/play/a0h7/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ! ИГРА
+http://185.195.184.30:8000/play/a0h8/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ! СТРАНА
+http://185.195.184.30:8000/play/a0h9/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",Матч ТВ
+http://185.195.184.30:8000/play/a0id/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",Eurosport 1
+http://185.195.184.30:8000/play/a0jr/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",Eurosport 2
+http://185.195.184.30:8000/play/a0js/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",KHL Prime
+http://185.195.184.30:8000/play/a0ef/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",КХЛ
+http://185.195.184.30:8000/play/a00y/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",Viasat Sport
+http://185.195.184.30:8000/play/a02b/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",Мир баскетбола
+http://185.195.184.30:8000/play/a014/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",Extreme Sports
+http://185.195.184.30:8000/play/a02c/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",MMA-TV
+http://185.195.184.30:8000/play/a013/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",Футбол
+http://185.195.184.30:8000/play/a0ki/index.m3u8
+
+#EXTINF:-1 group-title="HARTUM TV SRL",БОКС ТВ
+http://185.195.184.30:8000/play/a0lp/index.m3u8
 
