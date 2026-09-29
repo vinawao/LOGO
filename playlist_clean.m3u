@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
-#EXTINF:-1,🛠Ревизия №-1 🚦26.09.2026|06-40|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+#EXTINF:-1,🛠Ревизия №-2 🚦28.09.2026|16-30|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
@@ -202,6 +202,9 @@ http://stream.mcquack.net/391/index.m3u8
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Sport 2
 http://stream.mcquack.net/392/index.m3u8
 
+#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Sport 3
+http://stream.mcquack.net/393/index.m3u8
+
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Sport 4
 http://stream.mcquack.net/394/index.m3u8
 
@@ -210,6 +213,18 @@ http://stream.mcquack.net/212/index.m3u8
 
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Dynamo Kyiv TV
 http://stream.mcquack.net/396/index.m3u8
+
+#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Trace Sports
+http://stream.mcquack.net/256/index.m3u8
+
+#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Суспільне Спорт
+http://stream.mcquack.net/444/index.m3u8
+
+#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",DiVi Sport
+http://stream.mcquack.net/457/index.m3u8
+
+#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Maincast кіберспорт
+http://stream.mcquack.net/487/index.m3u8
 
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",KHL ТВ
 http://stream.mcquack.net/166/index.m3u8
@@ -337,71 +352,17 @@ http://195.64.140.147:10115/115
 #EXTINF:-1 group-title="LLC G&G-Telecom",Ziggo Golf
 http://195.64.140.147:10116/116
 
-#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ ПРЕМЬЕР
-http://185.195.184.30:8000/play/a00u/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ! HD
-http://185.195.184.30:8000/play/a048/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ! БОЕЦ
-http://185.195.184.30:8000/play/a056/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ! ФУТБОЛ 1
-http://185.195.184.30:8000/play/a00m/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ! ФУТБОЛ 2
-http://185.195.184.30:8000/play/a00n/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ! ФУТБОЛ 3
-http://185.195.184.30:8000/play/a00o/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ! АРЕНА
-http://185.195.184.30:8000/play/a0h7/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ! ИГРА
-http://185.195.184.30:8000/play/a0h8/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",МАТЧ! СТРАНА
-http://185.195.184.30:8000/play/a0h9/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",Матч ТВ
-http://185.195.184.30:8000/play/a0id/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",Eurosport 1
-http://185.195.184.30:8000/play/a0jr/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",Eurosport 2
-http://185.195.184.30:8000/play/a0js/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",KHL Prime
-http://185.195.184.30:8000/play/a0ef/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",КХЛ
-http://185.195.184.30:8000/play/a00y/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",Viasat Sport
-http://185.195.184.30:8000/play/a02b/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",Мир баскетбола
-http://185.195.184.30:8000/play/a014/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",Extreme Sports
-http://185.195.184.30:8000/play/a02c/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",MMA-TV
-http://185.195.184.30:8000/play/a013/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",Футбол
-http://185.195.184.30:8000/play/a0ki/index.m3u8
-
-#EXTINF:-1 group-title="HARTUM TV SRL",БОКС ТВ
-http://185.195.184.30:8000/play/a0lp/index.m3u8
-
 #EXTINF:-1 group-title="Ott Club",Go3 Sport 1
 http://stream.mcquack.net/416/tracks-v1a1/mono.ts.m3u8
 
+#EXTINF:-1 group-title="Ott Club",IVI Sport
+http://stream.mcquack.net/457/tracks-v1a1/mono.ts.m3u8
+
 #EXTINF:-1 group-title="Ott Club",Sports Extreme
 http://stream.mcquack.net/148/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 group-title="Ott Club",Maincast Sport
+http://stream.mcquack.net/487/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 group-title="Ott Club",Qazsport
 http://stream.mcquack.net/72/tracks-v1a1/mono.ts.m3u8
@@ -411,6 +372,9 @@ http://stream.mcquack.net/461/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 group-title="Ott Club",Sport 2
 http://stream.mcquack.net/461/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 group-title="Ott Club",Спорт 3 Украина
+http://stream.mcquack.net/393/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 group-title="Ott Club",Спорт 4 Украина
 http://stream.mcquack.net/394/tracks-v1a1/mono.ts.m3u8
@@ -432,4 +396,28 @@ http://stream.mcquack.net/176/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 group-title="Ott Club",Eurosport 2
 http://stream.mcquack.net/192/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 group-title="IZONE", Матч ТВ
+http://46.32.176.50/matchtv/index.m3u8
+
+#EXTINF:-1 group-title="IZONE", Матч HD
+http://46.32.176.50/MatchTVHD/index.m3u8
+
+#EXTINF:-1 group-title="IZONE", Матч! Игра
+http://46.32.176.50/matchiqra/index.m3u8
+
+#EXTINF:-1 group-title="IZONE", Матч! Арена HD
+http://46.32.176.50/MatchArenaHD/index.m3u8
+
+#EXTINF:-1 group-title="IZONE", Матч! Боец
+http://46.32.176.50/boets/index.m3u8
+
+#EXTINF:-1 group-title="IZONE", Viasat Sport
+http://46.32.176.50/viasatsport/index.m3u8
+
+#EXTINF:-1 group-title="IZONE"", Бокс ТВ
+http://46.32.176.50/bokstv/index.m3u8
+
+#EXTINF:-1 group-title="IZONE", KHL
+http://46.32.176.50/kxltv/index.m3u8
 
