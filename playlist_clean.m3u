@@ -11,9 +11,6 @@ http://iptv.prosto.tv:7000/ch313/video.m3u8?secret=cledwwov
 #EXTINF:-1 group-title="SPORT 🏆",sport m
 http://newsr1.roshen.live:8080/vAu5sUNHz3/tracks-v1a1/mono.m3u8?token=XSOdznpeFPEURAYS
 
-#EXTINF:-1 group-title="SPORT 🏆",M Sport vpn
-http://5.188.159.128:8070/megogo_sport/index.m3u8
-
 #EXTINF:-1 group-title="SPORT 🏆",NHL (Интересные моменты)
 https://nhl-firetv.amagi.tv/playlist.m3u8
 
@@ -396,28 +393,4 @@ http://stream.mcquack.net/176/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 group-title="Ott Club",Eurosport 2
 http://stream.mcquack.net/192/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 group-title="IZONE", Матч ТВ
-http://46.32.176.50/matchtv/index.m3u8
-
-#EXTINF:-1 group-title="IZONE", Матч HD
-http://46.32.176.50/MatchTVHD/index.m3u8
-
-#EXTINF:-1 group-title="IZONE", Матч! Игра
-http://46.32.176.50/matchiqra/index.m3u8
-
-#EXTINF:-1 group-title="IZONE", Матч! Арена HD
-http://46.32.176.50/MatchArenaHD/index.m3u8
-
-#EXTINF:-1 group-title="IZONE", Матч! Боец
-http://46.32.176.50/boets/index.m3u8
-
-#EXTINF:-1 group-title="IZONE", Viasat Sport
-http://46.32.176.50/viasatsport/index.m3u8
-
-#EXTINF:-1 group-title="IZONE"", Бокс ТВ
-http://46.32.176.50/bokstv/index.m3u8
-
-#EXTINF:-1 group-title="IZONE", KHL
-http://46.32.176.50/kxltv/index.m3u8
 
