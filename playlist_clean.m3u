@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
-#EXTINF:-1,🛠Ревизия №-2 🚦28.09.2026|16-30|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+#EXTINF:-1,🛠Ревизия №-1 🚦02.10.2026|10-30|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
@@ -10,6 +10,9 @@ http://iptv.prosto.tv:7000/ch313/video.m3u8?secret=cledwwov
 
 #EXTINF:-1 group-title="SPORT 🏆",sport m
 http://newsr1.roshen.live:8080/vAu5sUNHz3/tracks-v1a1/mono.m3u8?token=XSOdznpeFPEURAYS
+
+#EXTINF:-1 group-title="SPORT 🏆",M Sport vpn
+http://5.188.159.128:8070/megogo_sport/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",NHL (Интересные моменты)
 https://nhl-firetv.amagi.tv/playlist.m3u8
@@ -130,10 +133,6 @@ http://45.129.141.180:9981/stream/channelid/1716506983?profile=iptv.org.ua
 #EXTINF:-1 group-title="SPORT 🏆", ONEPLAY3-kolo cz
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/1597775099?profile=iptv.org.ua
-
-#EXTINF:-1 group-title="SPORT 🏆", EUROSPORT1-ali3 cz
-#EXTVLCOPT:network-caching=1000
-http://45.129.141.180:9981/stream/channelid/718615486?profile=iptv.org.ua
 
 #EXTINF:-1 group-title="SPORT 🏆", EUROSPORT2-ali3 cz
 #EXTVLCOPT:network-caching=1000
