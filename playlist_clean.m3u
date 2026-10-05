@@ -1,7 +1,4 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
-#EXTINF:-1,🛠Ревизия №-1 🚦02.10.2026|10-30|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
-http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
-
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
 https://vcdn.produck.company/out/ngrp:divisport_all/playlist.m3u8
 
@@ -134,6 +131,10 @@ http://45.129.141.180:9981/stream/channelid/1716506983?profile=iptv.org.ua
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/1597775099?profile=iptv.org.ua
 
+#EXTINF:-1 group-title="SPORT 🏆", EUROSPORT1-ali3 cz
+#EXTVLCOPT:network-caching=1000
+http://45.129.141.180:9981/stream/channelid/718615486?profile=iptv.org.ua
+
 #EXTINF:-1 group-title="SPORT 🏆", EUROSPORT2-ali3 cz
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/737993602?profile=iptv.org.ua
@@ -255,9 +256,6 @@ http://151.80.18.177:86/Infosport+_HD/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",Euro Sport HD FRANCE
 http://151.80.18.177:86/Eurosport_HD/index.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",Euro Sport 2 HD FRANCE
-http://151.80.18.177:86/Eurosport_2_HD/index.m3u8
-
 #EXTINF:-1 group-title="Uplink (VPN)",KHL Prime
 https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv
 
@@ -348,48 +346,81 @@ http://195.64.140.147:10115/115
 #EXTINF:-1 group-title="LLC G&G-Telecom",Ziggo Golf
 http://195.64.140.147:10116/116
 
-#EXTINF:-1 group-title="Ott Club",Go3 Sport 1
-http://stream.mcquack.net/416/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",SPORT TV 2 HD-meo
+http://188.115.15.121:8000/play/a03h
 
-#EXTINF:-1 group-title="Ott Club",IVI Sport
-http://stream.mcquack.net/457/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",SPORT TV 3 HD-meo
+http://188.115.15.121:8000/play/a03i
 
-#EXTINF:-1 group-title="Ott Club",Sports Extreme
-http://stream.mcquack.net/148/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",SPORT TV 4 HD-meo
+http://188.115.15.121:8000/play/a03d
 
-#EXTINF:-1 group-title="Ott Club",Maincast Sport
-http://stream.mcquack.net/487/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",SPORT TV 5 HD-meo
+http://188.115.15.121:8000/play/a03e
 
-#EXTINF:-1 group-title="Ott Club",Qazsport
-http://stream.mcquack.net/72/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",SPORT TV 6 HD-meo
+http://188.115.15.121:8000/play/a03f
 
-#EXTINF:-1 group-title="Ott Club",Спорт 1 Украина
-http://stream.mcquack.net/461/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",SPORT TV 7-meo
+http://188.115.15.121:8000/play/a03k
 
-#EXTINF:-1 group-title="Ott Club",Sport 2
-http://stream.mcquack.net/461/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",SPORT TV+
+http://188.115.15.121:8000/play/a02e
 
-#EXTINF:-1 group-title="Ott Club",Спорт 3 Украина
-http://stream.mcquack.net/393/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",SYFY
+http://188.115.15.121:8000/play/a02a
 
-#EXTINF:-1 group-title="Ott Club",Спорт 4 Украина
-http://stream.mcquack.net/394/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",Sport TV 1 HD
+http://188.115.15.121:8000/play/a01c
 
-#EXTINF:-1 group-title="Ott Club",Спорт 5
-http://stream.mcquack.net/212/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",Sport TV 2 HD
+http://188.115.15.121:8000/play/a01e
 
-#EXTINF:-1 group-title="Ott Club",Dynamo Kyiv TV HD
-http://stream.mcquack.net/396/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",Sport TV 3 HD
+http://188.115.15.121:8000/play/a01f
 
-#EXTINF:-1 group-title="Ott Club",Setanta Sports 1
-http://stream.mcquack.net/234/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",Sport TV 4 HD
+http://188.115.15.121:8000/play/a00u
 
-#EXTINF:-1 group-title="Ott Club",Setanta Sports 2
-http://stream.mcquack.net/235/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",Sport TV 5 HD
+http://188.115.15.121:8000/play/a01b
 
-#EXTINF:-1 group-title="Ott Club",Eurosport 1
-http://stream.mcquack.net/176/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",Sport TV 6 HD
+http://188.115.15.121:8000/play/a01d
 
-#EXTINF:-1 group-title="Ott Club",Eurosport 2
-http://stream.mcquack.net/192/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="SPORT 🏆",Sport TV 7
+http://188.115.15.121:8000/play/a01h
+
+#EXTINF:-1 group-title="SPORT 🏆",DAZN 1
+http://188.115.15.121:8000/play/a01z
+
+#EXTINF:-1 group-title="SPORT 🏆",DAZN 2
+http://188.115.15.121:8000/play/a025
+
+#EXTINF:-1 group-title="SPORT 🏆",DAZN 3
+http://188.115.15.121:8000/play/a026
+
+#EXTINF:-1 group-title="SPORT 🏆",DAZN 4
+http://188.115.15.121:8000/play/a020
+
+#EXTINF:-1 group-title="SPORT 🏆",DAZN 5
+http://188.115.15.121:8000/play/a021
+
+#EXTINF:-1 group-title="SPORT 🏆",Матч! Футбол 1
+http://178.76.68.60:7441/146/mpegts
+
+#EXTINF:-1 group-title="SPORT 🏆",Матч! Футбол 2
+http://178.76.68.60:7441/147/mpegts
+
+#EXTINF:-1 group-title="SPORT 🏆",Матч
+http://178.76.68.60:7441/148/mpegts
+
+#EXTINF:-1 group-title="SPORT 🏆",Setanta Sports HD
+http://178.76.68.60:7441/149/mpegts
+
+#EXTINF:-1 group-title="SPORT 🏆",Setanta Sports 1 HD
+http://178.76.68.60:7441/150/mpegts
+
+#EXTINF:-1 group-title="SPORT 🏆",Setanta Sports 2 HD
+http://178.76.68.60:7441/151/mpegts
 
