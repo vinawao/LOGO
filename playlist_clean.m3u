@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
-#EXTINF:-1,🛠Ревизия №-1 🚦06.10.2026|13-50|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+#EXTINF:-1,🛠Ревизия №-1 🚦10.10.2026|12-40|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
@@ -106,9 +106,6 @@ http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",AYM HD
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4610
-
-#EXTINF:-1 group-title="SPORT 🏆",UFC Network
-https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Motor sport revue HD
 https://stream.polar.cz/vctv/vctvlive-1/playlist.m3u8
@@ -351,4 +348,55 @@ http://195.64.140.147:10115/115
 
 #EXTINF:-1 group-title="LLC G&G-Telecom",Ziggo Golf
 http://195.64.140.147:10116/116
+
+#EXTINF:-1 group-title="SPORT 🏆",Матч Премьер
+http://185.23.80.23:8080/MATCH_PREMIER/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Матч! Футбол 1
+http://31.148.5.241/Match_Football_1_HD/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Матч! Футбол 2
+http://31.148.5.241/Match_Football_2_HD/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Матч! Футбол 3
+http://31.148.5.241/Match_Football_3_HD/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Viasat Sport
+http://31.148.5.241/Viasat_Sport/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Eurosport 1 HD
+http://31.148.5.241/Eurosport_1_HD/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Eurosport 2 HD
+http://31.148.5.241/Eurosport_2_HD/index.m3u8
+
+#EXTINF:-1 group-title="Армения test🇦🇲",МАТЧ БОЕЦ
+http://91.205.196.7:8000/play/a02s
+
+#EXTINF:-1 group-title="Армения test🇦🇲",FAST SPORT HD
+http://91.205.196.7:8000/play/a02t
+
+#EXTINF:-1 group-title="Армения test🇦🇲",МАТЧ ПЛАНЕТА
+http://91.205.196.7:8000/play/a02u
+
+#EXTINF:-1 group-title="Армения test🇦🇲",EUROSPORT 1 HD
+http://91.205.196.7:8000/play/a02v
+
+#EXTINF:-1 group-title="Армения test🇦🇲",EUROSPORT 2 HD
+http://91.205.196.7:8000/play/a02w
+
+#EXTINF:-1 group-title="Армения test🇦🇲",Ֆիթնես ՏՎ HD
+http://91.205.196.7:8000/play/a02x
+
+#EXTINF:-1 group-title="Армения test🇦🇲",VIJU+SPORT
+http://91.205.196.7:8000/play/a02y
+
+#EXTINF:-1 group-title="Армения test🇦🇲",МАТЧ ФУТБОЛ 1 HD
+http://91.205.196.7:8000/play/a02z
+
+#EXTINF:-1 group-title="Армения test🇦🇲",МАТЧ ФУТБОЛ 2 HD
+http://91.205.196.7:8000/play/a030
+
+#EXTINF:-1 group-title="Армения test🇦🇲",MATCH PREMYER
+http://91.205.196.7:8000/play/a03l
 
