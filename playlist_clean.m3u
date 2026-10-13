@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
-#EXTINF:-1,🛠Ревизия №-1 🚦10.10.2026|12-40|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+#EXTINF:-1,🛠Ревизия №-1 🚦12.10.2026|16-40|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
@@ -249,15 +249,6 @@ http://stream.mcquack.net/279/index.m3u8
 
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Qazsport
 http://stream.mcquack.net/72/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Infosport+ FRANCE
-http://151.80.18.177:86/Infosport+_HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Euro Sport HD FRANCE
-http://151.80.18.177:86/Eurosport_HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Euro Sport 2 HD FRANCE
-http://151.80.18.177:86/Eurosport_2_HD/index.m3u8
 
 #EXTINF:-1 group-title="Uplink (VPN)",KHL Prime
 https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv
