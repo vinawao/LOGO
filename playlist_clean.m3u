@@ -35,9 +35,6 @@ http://31.148.5.241:80/Match_Football_3_HD/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",Viasat_Sport
 http://31.148.5.241:80/Viasat_Sport/index.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",Eurosport_1_HD
-http://31.148.5.241:80/Eurosport_1_HD/index.m3u8
-
 #EXTINF:-1 group-title="SPORT 🏆",Eurosport_2_HD
 http://31.148.5.241:80/Eurosport_2_HD/index.m3u8
 
@@ -107,6 +104,9 @@ http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",AYM HD
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4610
 
+#EXTINF:-1 group-title="SPORT 🏆",UFC Network
+https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
+
 #EXTINF:-1 group-title="SPORT 🏆",Motor sport revue HD
 https://stream.polar.cz/vctv/vctvlive-1/playlist.m3u8
 
@@ -147,12 +147,6 @@ http://45.129.141.180:9981/stream/channelid/877537711?profile=iptv.org.ua
 #EXTINF:-1 group-title="SPORT 🏆",SKY TENIS IT aliex2 it
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/1363722412?profile=iptv.org.ua
-
-#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Eurosport 1
-http://stream.mcquack.net/176/index.m3u8
-
-#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Eurosport 2
-http://stream.mcquack.net/192/index.m3u8
 
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Матч! Футбол 1
 http://stream.mcquack.net/130/index.m3u8
