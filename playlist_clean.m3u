@@ -35,11 +35,11 @@ http://31.148.5.241:80/Match_Football_3_HD/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",Viasat_Sport
 http://31.148.5.241:80/Viasat_Sport/index.m3u8
 
+#EXTINF:-1 group-title="SPORT 🏆",Eurosport_1_HD
+http://31.148.5.241:80/Eurosport_1_HD/index.m3u8
+
 #EXTINF:-1 group-title="SPORT 🏆",Eurosport_2_HD
 http://31.148.5.241:80/Eurosport_2_HD/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",Trace Sport Stars HD
-https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Uzreport HD
 https://stream8.cinerama.uz/1015/tracks-v1a1/mono.m3u8
@@ -55,9 +55,6 @@ https://stream8.cinerama.uz/1264/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Viasat Sport
 https://stream8.cinerama.uz/1229/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 group-title="SPORT 🏆",KHL
-https://stream8.cinerama.uz/1422/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",EUROSPORT 1
 https://stream8.cinerama.uz/1439/tracks-v1a1/mono.m3u8
@@ -240,33 +237,6 @@ http://stream.mcquack.net/148/index.m3u8
 
 #EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",UDAR
 http://stream.mcquack.net/279/index.m3u8
-
-#EXTINF:-1 group-title="TEST-1" tvg-rec="7" timeshift="7",Qazsport
-http://stream.mcquack.net/72/index.m3u8
-
-#EXTINF:-1 group-title="Uplink (VPN)",KHL Prime
-https://fs.uplink.kz/khl_prime/mono.m3u8?token=onlinetv
-
-#EXTINF:-1 group-title="Uplink (VPN)",KHL
-https://fs.uplink.kz/telekanal_khl/mono.m3u8?token=onlinetv
-
-#EXTINF:-1 group-title="Uplink (VPN)",Матч ТВ
-https://fs.uplink.kz/match/mono.m3u8?token=onlinetv
-
-#EXTINF:-1 group-title="Uplink (VPN)",Матч! Планета
-https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv
-
-#EXTINF:-1 group-title="Uplink (VPN)",Viasat Sports
-https://fs.uplink.kz/viju_sport/mono.m3u8?token=onlinetv
-
-#EXTINF:-1 group-title="Uplink (VPN)",MMA-TV
-https://fs.uplink.kz/mma/mono.m3u8?token=onlinetv
-
-#EXTINF:-1 group-title="Uplink (VPN)",Etreme sports
-https://fs.uplink.kz/extreme_sports/mono.m3u8?token=onlinetv
-
-#EXTINF:-1 group-title="Uplink (VPN)",Qazsport HD
-https://fs.uplink.kz/qazsport_hd/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 group-title="LLC G&G-Telecom",Матч ТВ
 http://195.64.140.147:10003/993
