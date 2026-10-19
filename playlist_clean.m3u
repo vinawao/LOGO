@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
-#EXTINF:-1,🛠Ревизия №-1 🚦12.10.2026|16-40|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+#EXTINF:-1,🛠Ревизия №-1 🚦18.10.2026|12-00|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
@@ -41,6 +41,9 @@ http://31.148.5.241:80/Eurosport_1_HD/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",Eurosport_2_HD
 http://31.148.5.241:80/Eurosport_2_HD/index.m3u8
 
+#EXTINF:-1 group-title="SPORT 🏆",Trace Sport Stars HD
+https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 group-title="SPORT 🏆",Uzreport HD
 https://stream8.cinerama.uz/1015/tracks-v1a1/mono.m3u8
 
@@ -55,6 +58,9 @@ https://stream8.cinerama.uz/1264/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Viasat Sport
 https://stream8.cinerama.uz/1229/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",KHL
+https://stream8.cinerama.uz/1422/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",EUROSPORT 1
 https://stream8.cinerama.uz/1439/tracks-v1a1/mono.m3u8
