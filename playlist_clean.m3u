@@ -110,6 +110,9 @@ http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",AYM HD
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4610
 
+#EXTINF:-1 group-title="SPORT 🏆",UFC Network
+https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
+
 #EXTINF:-1 group-title="SPORT 🏆",Motor sport revue HD
 https://stream.polar.cz/vctv/vctvlive-1/playlist.m3u8
 
