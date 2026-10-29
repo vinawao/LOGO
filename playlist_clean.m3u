@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
-#EXTINF:-1,🛠Ревизия №-1 🚦25.10.2026|13-05|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+#EXTINF:-1,🛠Ревизия №-1 🚦28.10.2026|13-00|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
@@ -109,6 +109,9 @@ http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",AYM HD
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4610
+
+#EXTINF:-1 group-title="SPORT 🏆",UFC Network
+https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Motor sport revue HD
 https://stream.polar.cz/vctv/vctvlive-1/playlist.m3u8
@@ -360,4 +363,16 @@ http://91.205.196.7:8000/play/a030
 
 #EXTINF:-1 group-title="Армения test🇦🇲",MATCH PREMYER
 http://91.205.196.7:8000/play/a03l
+
+#EXTINF:-1 group-title="SPORT 🏆",Sport 1 HD
+http://141.94.193.53:80/Sport_1_HD/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Sport 2 HD
+http://141.94.193.53:80/Sport_2_HD/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Eurosport 1 HD
+http://141.94.193.53:80/Eurosport_1_HD/index.m3u8
+
+#EXTINF:-1 group-title="SPORT 🏆",Eurosport 2 HD
+http://141.94.193.53:80/Eurosport_2_HD/index.m3u8
 
