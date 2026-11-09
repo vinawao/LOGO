@@ -62,9 +62,6 @@ https://stream8.cinerama.uz/1439/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",Матч ТВ
 http://31.131.141.195:8000/play/1030/index.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",SKY Sports Football
-http://31.43.191.125:8080/restream/restream/1671
-
 #EXTINF:-1 group-title="SPORT 🏆",ESPN Premium HD Испания 🇪🇸
 http://181.224.255.210:8001/play/a0pt/index.m3u8
 
@@ -116,18 +113,6 @@ https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",UNBEATEN
 https://unbeaten-tcl.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",ONEPLAY1-kolo cz
-#EXTVLCOPT:network-caching=1000
-http://45.129.141.180:9981/stream/channelid/177253733?profile=iptv.org.ua
-
-#EXTINF:-1 group-title="SPORT 🏆",ONEPLAY2-kolo cz
-#EXTVLCOPT:network-caching=1000
-http://45.129.141.180:9981/stream/channelid/1716506983?profile=iptv.org.ua
-
-#EXTINF:-1 group-title="SPORT 🏆", ONEPLAY3-kolo cz
-#EXTVLCOPT:network-caching=1000
-http://45.129.141.180:9981/stream/channelid/1597775099?profile=iptv.org.ua
-
 #EXTINF:-1 group-title="SPORT 🏆", EUROSPORT1-ali3 cz
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/718615486?profile=iptv.org.ua
@@ -135,14 +120,6 @@ http://45.129.141.180:9981/stream/channelid/718615486?profile=iptv.org.ua
 #EXTINF:-1 group-title="SPORT 🏆", EUROSPORT2-ali3 cz
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/737993602?profile=iptv.org.ua
-
-#EXTINF:-1 group-title="SPORT 🏆", PREMIER SPORT1 cz
-#EXTVLCOPT:network-caching=1000
-http://45.129.141.180:9981/stream/channelid/2020429400?profile=iptv.org.ua
-
-#EXTINF:-1 group-title="SPORT 🏆", PREMIER SPORT2 cz
-#EXTVLCOPT:network-caching=1000
-http://45.129.141.180:9981/stream/channelid/877537711?profile=iptv.org.ua
 
 #EXTINF:-1 group-title="SPORT 🏆",SKY TENIS IT aliex2 it
 #EXTVLCOPT:network-caching=1000
