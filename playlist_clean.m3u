@@ -101,9 +101,6 @@ http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",AYM HD
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4610
 
-#EXTINF:-1 group-title="SPORT 🏆",UFC Network
-https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
-
 #EXTINF:-1 group-title="SPORT 🏆",Motor sport revue HD
 https://stream.polar.cz/vctv/vctvlive-1/playlist.m3u8
 
@@ -113,6 +110,18 @@ https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",UNBEATEN
 https://unbeaten-tcl.amagi.tv/playlist.m3u8
 
+#EXTINF:-1 group-title="SPORT 🏆",ONEPLAY1-kolo cz
+#EXTVLCOPT:network-caching=1000
+http://45.129.141.180:9981/stream/channelid/177253733?profile=iptv.org.ua
+
+#EXTINF:-1 group-title="SPORT 🏆",ONEPLAY2-kolo cz
+#EXTVLCOPT:network-caching=1000
+http://45.129.141.180:9981/stream/channelid/1716506983?profile=iptv.org.ua
+
+#EXTINF:-1 group-title="SPORT 🏆", ONEPLAY3-kolo cz
+#EXTVLCOPT:network-caching=1000
+http://45.129.141.180:9981/stream/channelid/1597775099?profile=iptv.org.ua
+
 #EXTINF:-1 group-title="SPORT 🏆", EUROSPORT1-ali3 cz
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/718615486?profile=iptv.org.ua
@@ -120,6 +129,14 @@ http://45.129.141.180:9981/stream/channelid/718615486?profile=iptv.org.ua
 #EXTINF:-1 group-title="SPORT 🏆", EUROSPORT2-ali3 cz
 #EXTVLCOPT:network-caching=1000
 http://45.129.141.180:9981/stream/channelid/737993602?profile=iptv.org.ua
+
+#EXTINF:-1 group-title="SPORT 🏆", PREMIER SPORT1 cz
+#EXTVLCOPT:network-caching=1000
+http://45.129.141.180:9981/stream/channelid/2020429400?profile=iptv.org.ua
+
+#EXTINF:-1 group-title="SPORT 🏆", PREMIER SPORT2 cz
+#EXTVLCOPT:network-caching=1000
+http://45.129.141.180:9981/stream/channelid/877537711?profile=iptv.org.ua
 
 #EXTINF:-1 group-title="SPORT 🏆",SKY TENIS IT aliex2 it
 #EXTVLCOPT:network-caching=1000
