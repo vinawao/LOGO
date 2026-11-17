@@ -101,6 +101,9 @@ http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",AYM HD
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4610
 
+#EXTINF:-1 group-title="SPORT 🏆",UFC Network
+https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
+
 #EXTINF:-1 group-title="SPORT 🏆",Motor sport revue HD
 https://stream.polar.cz/vctv/vctvlive-1/playlist.m3u8
 
@@ -292,9 +295,6 @@ http://195.64.140.147:10112/112
 #EXTINF:-1 group-title="LLC G&G-Telecom",Viasat Sort
 http://195.64.140.147:10113/113
 
-#EXTINF:-1 group-title="LLC G&G-Telecom",Eurosport 1 HD
-http://195.64.140.147:10114/114
-
 #EXTINF:-1 group-title="LLC G&G-Telecom",Eurosport 2 HD
 http://195.64.140.147:10115/115
 
@@ -405,42 +405,6 @@ http://85.117.61.84/setanta3/index.m3u8
 
 #EXTINF:-1 group-title="ТЕСТ-04-11",eurosport1 EN
 http://85.117.37.43/eurosport1/index.m3u8
-
-#EXTINF:-1 group-title="SPORT 2 🏆",EUROSPORT 1
-http://sultanios.alwaysdata.net/vavo.php?ID=2924660569
-
-#EXTINF:-1 group-title="SPORT 2 🏆",EUROSPORT 2 HD
-http://sultanios.alwaysdata.net/vavo.php?ID=4173021742
-
-#EXTINF:-1 group-title="SPORT 2 🏆",EDGE SPORT HD
-http://sultanios.alwaysdata.net/vavo.php?ID=2604913714
-
-#EXTINF:-1 group-title="SPORT 2 🏆",ESPORTS 1 HD
-http://sultanios.alwaysdata.net/vavo.php?ID=2975640481
-
-#EXTINF:-1 group-title="SPORT 2 🏆",SKY BUNDESLIGA 1 HD+
-http://sultanios.alwaysdata.net/vavo.php?ID=1559438513
-
-#EXTINF:-1 group-title="SPORT 2 🏆",SKY BUNDESLIGA 2
-http://sultanios.alwaysdata.net/vavo.php?ID=639427001
-
-#EXTINF:-1 group-title="SPORT 2 🏆",SKY BUNDESLIGA 3
-http://sultanios.alwaysdata.net/vavo.php?ID=461162505
-
-#EXTINF:-1 group-title="SPORT 2 🏆",MAGENTA SPORT 5
-http://sultanios.alwaysdata.net/vavo.php?ID=2657796264
-
-#EXTINF:-1 group-title="SPORT 2 🏆",MORE THAN SPORTS TV
-http://sultanios.alwaysdata.net/vavo.php?ID=3024916903
-
-#EXTINF:-1 group-title="SPORT 2 🏆",MOTORSPORT TV
-http://sultanios.alwaysdata.net/vavo.php?ID=1371296327
-
-#EXTINF:-1 group-title="SPORT 2 🏆",MS GOLF 1
-http://sultanios.alwaysdata.net/vavo.php?ID=3248313882
-
-#EXTINF:-1 group-title="SPORT 2 🏆",MS SPORT HD
-http://sultanios.alwaysdata.net/vavo.php?ID=1124061192
 
 #EXTINF:-1 group-title="SPORT 2 🏆",blue ZOOM D
 http://31.43.191.125:8080/restream/restream/1959
