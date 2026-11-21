@@ -59,9 +59,6 @@ https://stream8.cinerama.uz/1422/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="SPORT 🏆",EUROSPORT 1
 https://stream8.cinerama.uz/1439/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 group-title="SPORT 🏆",Матч ТВ
-http://31.131.141.195:8000/play/1030/index.m3u8
-
 #EXTINF:-1 group-title="SPORT 🏆",ESPN Premium HD Испания 🇪🇸
 http://181.224.255.210:8001/play/a0pt/index.m3u8
 
@@ -100,6 +97,9 @@ http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",AYM HD
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4610
+
+#EXTINF:-1 group-title="SPORT 🏆",UFC Network
+https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Motor sport revue HD
 https://stream.polar.cz/vctv/vctvlive-1/playlist.m3u8
@@ -171,6 +171,9 @@ http://195.64.140.147:10100/100
 
 #EXTINF:-1 group-title="LLC G&G-Telecom",Матч Футбол 2 HD
 http://195.64.140.147:10101/101
+
+#EXTINF:-1 group-title="LLC G&G-Telecom",Матч Футбол 3 HD
+http://195.64.140.147:10102/102
 
 #EXTINF:-1 group-title="LLC G&G-Telecom",Матч Премьер HD
 http://195.64.140.147:10103/99103
@@ -313,12 +316,414 @@ http://193.33.39.108:9008/play/a01d
 #EXTINF:-1 group-title="ТЕСТ-04-11",KHL
 http://85.117.61.84/khl/index.m3u8
 
-#EXTINF:-1 group-title="ТЕСТ-04-11",setanta2 🇬🇪
-http://85.117.61.84/setanta2/index.m3u8
-
 #EXTINF:-1 group-title="ТЕСТ-04-11",setanta3
 http://85.117.61.84/setanta3/index.m3u8
 
 #EXTINF:-1 group-title="ТЕСТ-04-11",eurosport1 EN
 http://85.117.37.43/eurosport1/index.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="49935" tvg-logo="http://epg.propg.net/img/channel_icons/49935.png" ,Eurosport 1 HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/49935/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="32273" tvg-logo="http://epg.propg.net/img/channel_icons/32273.png" ,Eurosport 2 HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/32273/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="5" tvg-logo="http://epg.propg.net/img/channel_icons/5.png" ,Матч! HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/5/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="21" tvg-logo="http://epg.propg.net/img/channel_icons/21.png" ,Матч! Арена HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/21/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="47" tvg-logo="http://epg.propg.net/img/channel_icons/47.png" ,Матч! Игра HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/47/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="26338" tvg-logo="http://epg.propg.net/img/channel_icons/26338.png" ,Матч! Страна HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/26338/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="54482" tvg-logo="http://epg.propg.net/img/channel_icons/54482.png" ,Матч! Боец HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/54482/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="34117" tvg-logo="http://epg.propg.net/img/channel_icons/34117.png" ,Матч! Планета
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/34117/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="52846" tvg-logo="http://epg.propg.net/img/channel_icons/52846.png" ,Матч! Футбол 1 HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/52846/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="35647" tvg-logo="http://epg.propg.net/img/channel_icons/35647.png" ,Матч! Футбол 2 HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/35647/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="48756" tvg-logo="http://epg.propg.net/img/channel_icons/48756.png" ,Матч! Футбол 3 HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/48756/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="58793" tvg-logo="http://epg.propg.net/img/channel_icons/58793.png" ,Матч! Премьер HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/58793/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="54987" tvg-logo="http://epg.propg.net/img/channel_icons/54987.png" ,Футбол
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/54987/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="48630" tvg-logo="http://epg.propg.net/img/channel_icons/48630.png" ,Старт
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/48630/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="35252" tvg-logo="http://epg.propg.net/img/channel_icons/35252.png" ,Старт Баскет
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/35252/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="36" tvg-logo="http://epg.propg.net/img/channel_icons/36.png" ,КХЛ
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/36/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="49899" tvg-logo="http://epg.propg.net/img/channel_icons/49899.png" ,КХЛ HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/49899/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="1663" tvg-logo="http://epg.propg.net/img/channel_icons/1663.png" ,КХЛ Prime
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/1663/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="57364" tvg-logo="http://epg.propg.net/img/channel_icons/57364.png" ,Хоккей HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/57364/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="45141" tvg-logo="http://epg.propg.net/img/channel_icons/45141.png" ,Setanta Sports 1
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/45141/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="63626" tvg-logo="http://epg.propg.net/img/channel_icons/63626.png" ,Setanta Sports 2
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/63626/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="63945" tvg-logo="http://epg.propg.net/img/channel_icons/63945.png" ,Setanta Sports Ukraine
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/63945/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="30727" tvg-logo="http://epg.propg.net/img/channel_icons/30727.png" ,Setanta Sports Ukraine +
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/30727/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="82731" tvg-logo="http://epg.propg.net/img/channel_icons/82731.png" ,Setanta Sport Premium UA
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/82731/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="62005" tvg-logo="http://epg.propg.net/img/channel_icons/62005.png" ,Setanta Sports 1 Baltic
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/62005/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="38208" tvg-logo="http://epg.propg.net/img/channel_icons/38208.png" ,Setanta Sports 2 Baltic
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/38208/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="63395" tvg-logo="http://epg.propg.net/img/channel_icons/63395.png" ,Setanta Sport Moldova
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/63395/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="29837" tvg-logo="http://epg.propg.net/img/channel_icons/29837.png" ,Setanta Sport KZ
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/29837/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="63340" tvg-logo="http://epg.propg.net/img/channel_icons/63340.png" ,QSport League HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/63340/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="43998" tvg-logo="http://epg.propg.net/img/channel_icons/43998.png" ,QSport Arena HD (KZ)
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/43998/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="78261" tvg-logo="http://epg.propg.net/img/channel_icons/78261.png" ,CBC Sport (AZ)
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/78261/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="41948" tvg-logo="http://epg.propg.net/img/channel_icons/41948.png" ,Idman Sport (AZ)
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/41948/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="62264" tvg-logo="http://epg.propg.net/img/channel_icons/62264.png" ,Qazsport HD (KZ)
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/62264/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="82294" tvg-logo="http://epg.propg.net/img/channel_icons/82294.png" ,Беларусь 5 HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/82294/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="63652" tvg-logo="http://epg.propg.net/img/channel_icons/63652.png" ,Спорт ТВ BY
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/63652/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="27534" tvg-logo="http://epg.propg.net/img/channel_icons/27534.png" ,Prime Fight
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/27534/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="27941" tvg-logo="http://epg.propg.net/img/channel_icons/27941.png" ,Vinter Sport
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/27941/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="53037" tvg-logo="http://epg.propg.net/img/channel_icons/53037.png" ,NHL HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/53037/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="11092" tvg-logo="http://epg.propg.net/img/channel_icons/11092.png" ,Бокс ТВ
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/11092/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="84449" tvg-logo="http://epg.propg.net/img/channel_icons/84449.png" ,Удар ТВ HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/84449/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="86324" tvg-logo="http://epg.propg.net/img/channel_icons/86324.png" ,MMA TV
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/86324/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="38827" tvg-logo="http://epg.propg.net/img/channel_icons/38827.png" ,Точка отрыва
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/38827/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="84249" tvg-logo="http://epg.propg.net/img/channel_icons/84249.png" ,FightBox HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/84249/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="63742" tvg-logo="http://epg.propg.net/img/channel_icons/63742.png" ,Спорт HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/63742/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="37738" tvg-logo="http://epg.propg.net/img/channel_icons/37738.png" ,Мяч HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/37738/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="84629" tvg-logo="http://epg.propg.net/img/channel_icons/84629.png" ,Волейбол ТВ
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/84629/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="52938" tvg-logo="http://epg.propg.net/img/channel_icons/52938.png" ,Viju+ Sport HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/52938/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="1657" tvg-logo="http://epg.propg.net/img/channel_icons/1657.png" ,HD REX
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/1657/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="56" tvg-logo="http://epg.propg.net/img/channel_icons/56.png" ,Авто плюс
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/56/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="14942" tvg-logo="http://epg.propg.net/img/channel_icons/14942.png" ,Super Tennis
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/14942/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="901" tvg-logo="http://epg.propg.net/img/channel_icons/901.png" ,Extreme Sports
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/901/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="73732" tvg-logo="http://epg.propg.net/img/channel_icons/73732.png" ,Окко Спорт
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/73732/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="63048" tvg-logo="http://epg.propg.net/img/channel_icons/63048.png" ,Окко Футбол
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/63048/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="63719" tvg-logo="http://epg.propg.net/img/channel_icons/63719.png" ,Окко Прайм Спорт
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/63719/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="73620" tvg-logo="http://epg.propg.net/img/channel_icons/73620.png" ,Окко Чемпионат
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/73620/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="26781" tvg-logo="http://epg.propg.net/img/channel_icons/26781.png" ,Golf Channel
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/26781/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="74904" tvg-logo="http://epg.propg.net/img/channel_icons/74904.png" ,Sport 1 UA
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/74904/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="81695" tvg-logo="http://epg.propg.net/img/channel_icons/81695.png" ,Sport 2 UA
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/81695/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="33885" tvg-logo="http://epg.propg.net/img/channel_icons/33885.png" ,Sport 3 UA
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/33885/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="41885" tvg-logo="http://epg.propg.net/img/channel_icons/41885.png" ,Sport 4 UA
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/41885/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="43938" tvg-logo="http://epg.propg.net/img/channel_icons/43938.png" ,Sport 5 UA
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/43938/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="22981" tvg-logo="http://epg.propg.net/img/channel_icons/22981.png" ,Динамо Киев
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/22981/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="52093" tvg-logo="http://epg.propg.net/img/channel_icons/52093.png" ,Суспільне Спорт
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/52093/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="98220" tvg-logo="http://epg.propg.net/img/channel_icons/98220.png" ,UPL
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/98220/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="43626" tvg-logo="http://epg.propg.net/img/channel_icons/43626.png" ,GO3 Sport 1 HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/43626/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="25983" tvg-logo="http://epg.propg.net/img/channel_icons/25983.png" ,GO3 Sport 2 HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/25983/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="1" catchup-days="1" group-title="Досуг ТВ-Спортивные" tvg-id="53297" tvg-logo="http://epg.propg.net/img/channel_icons/53297.png" ,GO3 Sport 3 HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/53297/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="1" catchup-days="1" group-title="Досуг ТВ-Спортивные" tvg-id="58497" tvg-logo="http://epg.propg.net/img/channel_icons/58497.png" ,GO3 Sport 4 HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/58497/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="63984" tvg-logo="http://epg.propg.net/img/channel_icons/63984.png" ,GO3 Sport Open HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/63984/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="21537" tvg-logo="http://epg.propg.net/img/channel_icons/21537.png" ,Best4Sport
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/21537/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="25735" tvg-logo="http://epg.propg.net/img/channel_icons/25735.png" ,Best4Sport 2 HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/25735/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="76911" tvg-logo="http://epg.propg.net/img/channel_icons/76911.png" ,Sport 1 LT HD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/76911/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="19570" tvg-logo="http://epg.propg.net/img/channel_icons/19570.png" ,Sport 1 LT FHD
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/19570/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="63526" tvg-logo="http://epg.propg.net/img/channel_icons/63526.png" ,Sport 2 LT
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/63526/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="97185" tvg-logo="http://epg.propg.net/img/channel_icons/97185.png" ,Extra Event 1
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/97185/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="98351" tvg-logo="http://epg.propg.net/img/channel_icons/98351.png" ,Extra Event 2
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/98351/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="93728" tvg-logo="http://epg.propg.net/img/channel_icons/93728.png" ,Extra Event 3
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/93728/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="94628" tvg-logo="http://epg.propg.net/img/channel_icons/94628.png" ,Extra Event 4
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/94628/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="95372" tvg-logo="http://epg.propg.net/img/channel_icons/95372.png" ,Extra Event 5
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/95372/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="96442" tvg-logo="http://epg.propg.net/img/channel_icons/96442.png" ,Extra Event 6
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/96442/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="99538" tvg-logo="http://epg.propg.net/img/channel_icons/99538.png" ,Extra Event 7
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/99538/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="96235" tvg-logo="http://epg.propg.net/img/channel_icons/96235.png" ,Extra Event 8
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/96235/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="93694" tvg-logo="http://epg.propg.net/img/channel_icons/93694.png" ,Extra Event 9
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/93694/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="93228" tvg-logo="http://epg.propg.net/img/channel_icons/93228.png" ,Extra Event 10
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/93228/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="93117" tvg-logo="http://epg.propg.net/img/channel_icons/93117.png" ,Extra Event 11
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/93117/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="93855" tvg-logo="http://epg.propg.net/img/channel_icons/93855.png" ,Extra Event 12
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/93855/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="93762" tvg-logo="http://epg.propg.net/img/channel_icons/93762.png" ,Extra Event 13
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/93762/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="93332" tvg-logo="http://epg.propg.net/img/channel_icons/93332.png" ,Extra Event 14
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/93332/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="94772" tvg-logo="http://epg.propg.net/img/channel_icons/94772.png" ,Extra Event LKL 1
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/94772/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="94339" tvg-logo="http://epg.propg.net/img/channel_icons/94339.png" ,Extra Event LKL 2
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/94339/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="94663" tvg-logo="http://epg.propg.net/img/channel_icons/94663.png" ,Extra Event LKL 3
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/94663/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="83459" tvg-logo="http://epg.propg.net/img/channel_icons/83459.png" ,VIP Sport 1
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/83459/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="84284" tvg-logo="http://epg.propg.net/img/channel_icons/84284.png" ,VIP Sport 2
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/84284/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="86169" tvg-logo="http://epg.propg.net/img/channel_icons/86169.png" ,VIP Sport 3
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/86169/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="89263" tvg-logo="http://epg.propg.net/img/channel_icons/89263.png" ,VIP Sport 4
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/89263/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="87263" tvg-logo="http://epg.propg.net/img/channel_icons/87263.png" ,VIP Sport 5
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/87263/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="93628" tvg-logo="http://epg.propg.net/img/channel_icons/93628.png" ,VIP Sport 6
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/93628/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="81638" tvg-logo="http://epg.propg.net/img/channel_icons/81638.png" ,VIP Sport 7
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/81638/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="73782" tvg-logo="http://epg.propg.net/img/channel_icons/73782.png" ,VIP Sport 8
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/73782/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="84718" tvg-logo="http://epg.propg.net/img/channel_icons/84718.png" ,VIP Sport 9
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/84718/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="93174" tvg-logo="http://epg.propg.net/img/channel_icons/93174.png" ,VIP Sport 10
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/93174/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="83853" tvg-logo="http://epg.propg.net/img/channel_icons/83853.png" ,VIP Sport 11
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/83853/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="89471" tvg-logo="http://epg.propg.net/img/channel_icons/89471.png" ,VIP Sport 12
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/89471/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="98106" tvg-logo="http://epg.propg.net/img/channel_icons/98106.png" ,VIP Sport 13
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/98106/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="96251" tvg-logo="http://epg.propg.net/img/channel_icons/96251.png" ,VIP Sport 14
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/96251/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="96227" tvg-logo="http://epg.propg.net/img/channel_icons/96227.png" ,VIP Sport 15
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/96227/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="99374" tvg-logo="http://epg.propg.net/img/channel_icons/99374.png" ,VIP Sport 16
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/99374/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="98478" tvg-logo="http://epg.propg.net/img/channel_icons/98478.png" ,VIP Sport 17
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/98478/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="85829" tvg-logo="http://epg.propg.net/img/channel_icons/85829.png" ,Betking Live 1
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/85829/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="99367" tvg-logo="http://epg.propg.net/img/channel_icons/99367.png" ,Betking Live 2
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/99367/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="63553" tvg-logo="http://epg.propg.net/img/channel_icons/63553.png" ,Betking Live 3
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/63553/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="94184" tvg-logo="http://epg.propg.net/img/channel_icons/94184.png" ,PIMPLE Sport 1
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/94184/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="91692" tvg-logo="http://epg.propg.net/img/channel_icons/91692.png" ,PIMPLE Sport 2
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/91692/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="92663" tvg-logo="http://epg.propg.net/img/channel_icons/92663.png" ,PIMPLE Sport 3
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/92663/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="98362" tvg-logo="http://epg.propg.net/img/channel_icons/98362.png" ,PIMPLE Sport 4
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/98362/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="94739" tvg-logo="http://epg.propg.net/img/channel_icons/94739.png" ,PIMPLE Sport 5
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/94739/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="95465" tvg-logo="http://epg.propg.net/img/channel_icons/95465.png" ,PIMPLE Sport 6
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/95465/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="94273" tvg-logo="http://epg.propg.net/img/channel_icons/94273.png" ,FINT Sport 1
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/94273/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="91736" tvg-logo="http://epg.propg.net/img/channel_icons/91736.png" ,FINT Sport 2
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/91736/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="96639" tvg-logo="http://epg.propg.net/img/channel_icons/96639.png" ,FINT Sport 3
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/96639/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="91647" tvg-logo="http://epg.propg.net/img/channel_icons/91647.png" ,FINT Sport 4
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/91647/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="92551" tvg-logo="http://epg.propg.net/img/channel_icons/92551.png" ,Sport Live UA 1
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/92551/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="93619" tvg-logo="http://epg.propg.net/img/channel_icons/93619.png" ,Sport Live UA 2
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/93619/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="91775" tvg-logo="http://epg.propg.net/img/channel_icons/91775.png" ,Sport Live UA 3
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/91775/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="94517" tvg-logo="http://epg.propg.net/img/channel_icons/94517.png" ,Sport Live UA 4
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/94517/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="96385" tvg-logo="http://epg.propg.net/img/channel_icons/96385.png" ,Sport Live UA 5
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/96385/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="97352" tvg-logo="http://epg.propg.net/img/channel_icons/97352.png" ,Sport Live UA 6
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/97352/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="97349" tvg-logo="http://epg.propg.net/img/channel_icons/97349.png" ,Sport Live UA 7
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/97349/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="98349" tvg-logo="http://epg.propg.net/img/channel_icons/98349.png" ,Sport Live UA 8
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/98349/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="99362" tvg-logo="http://epg.propg.net/img/channel_icons/99362.png" ,Sport Live UA 9
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/99362/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="96309" tvg-logo="http://epg.propg.net/img/channel_icons/96309.png" ,Sport Live UA 10
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/96309/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="98355" tvg-logo="http://epg.propg.net/img/channel_icons/98355.png" ,Sport Live UA 11
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/98355/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="93957" tvg-logo="http://epg.propg.net/img/channel_icons/93957.png" ,Sport Live UA 12
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/93957/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="94986" tvg-logo="http://epg.propg.net/img/channel_icons/94986.png" ,Sport Live UA 13
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/94986/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="89237" tvg-logo="http://epg.propg.net/img/channel_icons/89237.png" ,CineMan Фитнес
+http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/89237/hlsx/pl.m3u8
 
