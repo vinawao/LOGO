@@ -1,4 +1,7 @@
 #EXTM3U url-tvg="https://url-epg-anda.com" refresh="43200"
+#EXTINF:-1,🛠Ревизия №-1 🚦27.11.2026|16-00|👍iptv.org.ua|tva.org.ua|tva.in.ua|fas-tv.com|mater.com.ua💰
+https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8
+
 #EXTINF:-1 group-title="SPORT 🏆",Divi Sport
 https://vcdn.produck.company/out/ngrp:divisport_all/playlist.m3u8
 
@@ -100,6 +103,9 @@ http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",AYM HD
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4610
+
+#EXTINF:-1 group-title="SPORT 🏆",UFC Network
+https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 
 #EXTINF:-1 group-title="SPORT 🏆",Motor sport revue HD
 https://stream.polar.cz/vctv/vctvlive-1/playlist.m3u8
@@ -316,9 +322,6 @@ http://193.33.39.108:9008/play/a01d
 #EXTINF:-1 group-title="ТЕСТ-04-11",KHL
 http://85.117.61.84/khl/index.m3u8
 
-#EXTINF:-1 group-title="ТЕСТ-04-11",setanta2 🇬🇪
-http://85.117.61.84/setanta2/index.m3u8
-
 #EXTINF:-1 group-title="ТЕСТ-04-11",setanta3
 http://85.117.61.84/setanta3/index.m3u8
 
@@ -343,140 +346,173 @@ http://213.91.179.28:8000/play/a08f
 #EXTINF:-1  group-title="Vivacom (VPN)",Max Sport 4 HD
 http://213.91.179.28:8000/play/a05n
 
-#EXTINF:-1 tvg-id="БОКС ТВ" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%91%D0%BE%D0%BA%D1%81%20%D0%A2%D0%92%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8201/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", БОКС ТВ
-https://live.uspeh.my/8201/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:1 grouptitle="Polsat Sport" ,Polsat Sport HD
+http://46.149.222.219:18002/polsatsporthd
 
-#EXTINF:-1 tvg-id="МАТЧ!" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%90%D0%A2%D0%A7!%20+0%20(%D0%91%D0%B5%D0%BB%D0%B3%D0%BE%D1%80%D0%BE%D0%B4).png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8016/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", МАТЧ!
-https://live.uspeh.my/8016/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:1 grouptitle="Polsat Sport" ,Canal+ Sport HD
+http://46.149.222.219:18002/canalplussporthd
 
-#EXTINF:-1 tvg-id="МАТЧ! HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%90%D0%A2%D0%A7!%20+0%20(%D0%91%D0%B5%D0%BB%D0%B3%D0%BE%D1%80%D0%BE%D0%B4).png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8179/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", МАТЧ! HD
-https://live.uspeh.my/8179/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:1 grouptitle="Polsat Sport" ,Canal + Sport 2 HD
+http://46.149.222.219:18002/canalplussport2hd
 
-#EXTINF:-1 tvg-id="МАТЧ! БОЕЦ" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%91%D0%BE%D0%B5%D1%86%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8027/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", МАТЧ! БОЕЦ
-https://live.uspeh.my/8027/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:1 grouptitle="Polsat Sport" ,Polsat Sport Premium 1
+http://46.149.222.219:18002/polsatsportpremium1
 
-#EXTINF:-1 tvg-id="МАТЧ! АРЕНА" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%90%D1%80%D0%B5%D0%BD%D0%B0%20HD%20orig.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8018/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", МАТЧ! АРЕНА
-https://live.uspeh.my/8018/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:1 grouptitle="Polsat Sport" ,Polsat Sport Premium 2
+http://46.149.222.219:18002/polsatsportpremium2
 
-#EXTINF:-1 tvg-id="МАТЧ! СТРАНА" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B0%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8019/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", МАТЧ! СТРАНА
-https://live.uspeh.my/8019/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:1 grouptitle="Polsat Sport" ,Polsat Sport Fight HD
+http://46.149.222.219:18002/polsatsportfighthd
 
-#EXTINF:-1 tvg-id="МАТЧ! ПРЕМЬЕР" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%9F%D1%80%D0%B5%D0%BC%D1%8C%D0%B5%D1%80%20FHD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8023/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", МАТЧ! ПРЕМЬЕР
-https://live.uspeh.my/8023/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:1 grouptitle="Polsat Sport" ,TVP Sport HD
+http://46.149.222.219:18002/tvpsporthd
+
+#EXTINF:1 grouptitle="Polsat Sport" ,Polsat Sport Extra HD
+http://46.149.222.219:18002/polsatsportextrahd
+
+#EXTINF:1 grouptitle="Polsat Sport" ,Polsat Sport News HD
+http://46.149.222.219:18002/polsatsportnewshd
+
+#EXTINF:1 grouptitle="Polsat Sport" ,Eurosport 1
+http://46.149.222.219:18002/eurosport1hd
+
+#EXTINF:1 grouptitle="Polsat Sport" ,Eurosport 2
+http://46.149.222.219:18002/eurosport2hd
+
+#EXTINF:-1 tvg-id="БОКС ТВ" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%91%D0%BE%D0%BA%D1%81%20%D0%A2%D0%92%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8201/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", БОКС ТВ
+https://live.uspeh.my/8201/video.m3u8?token=XXM4p2j6rPXVpT18
+
+#EXTINF:-1 tvg-id="МАТЧ!" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%90%D0%A2%D0%A7!%20+0%20(%D0%91%D0%B5%D0%BB%D0%B3%D0%BE%D1%80%D0%BE%D0%B4).png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8016/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", МАТЧ!
+https://live.uspeh.my/8016/video.m3u8?token=XXM4p2j6rPXVpT18
+
+#EXTINF:-1 tvg-id="МАТЧ! HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%90%D0%A2%D0%A7!%20+0%20(%D0%91%D0%B5%D0%BB%D0%B3%D0%BE%D1%80%D0%BE%D0%B4).png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8179/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", МАТЧ! HD
+https://live.uspeh.my/8179/video.m3u8?token=XXM4p2j6rPXVpT18
+
+#EXTINF:-1 tvg-id="МАТЧ! БОЕЦ" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%91%D0%BE%D0%B5%D1%86%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8027/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", МАТЧ! БОЕЦ
+https://live.uspeh.my/8027/video.m3u8?token=XXM4p2j6rPXVpT18
+
+#EXTINF:-1 tvg-id="МАТЧ! АРЕНА" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%90%D1%80%D0%B5%D0%BD%D0%B0%20HD%20orig.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8018/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", МАТЧ! АРЕНА
+https://live.uspeh.my/8018/video.m3u8?token=XXM4p2j6rPXVpT18
+
+#EXTINF:-1 tvg-id="МАТЧ! СТРАНА" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B0%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8019/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", МАТЧ! СТРАНА
+https://live.uspeh.my/8019/video.m3u8?token=XXM4p2j6rPXVpT18
+
+#EXTINF:-1 tvg-id="МАТЧ! ПРЕМЬЕР" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%9F%D1%80%D0%B5%D0%BC%D1%8C%D0%B5%D1%80%20FHD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8023/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", МАТЧ! ПРЕМЬЕР
+https://live.uspeh.my/8023/video.m3u8?token=XXM4p2j6rPXVpT18
 
 #EXTINF:-1 tvg-id="МАТЧ! ПЛАНЕТА" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%9F%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0.png" catchup-days="0", МАТЧ! ПЛАНЕТА
-https://live.uspeh.my/8549/video.m3u8?token=EHFHvNjTwqcqsiKN
+https://live.uspeh.my/8549/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="МАТЧ! ИГРА" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%98%D0%B3%D1%80%D0%B0%20FHD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8024/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", МАТЧ! ИГРА
-https://live.uspeh.my/8024/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="МАТЧ! ИГРА" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%98%D0%B3%D1%80%D0%B0%20FHD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8024/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", МАТЧ! ИГРА
+https://live.uspeh.my/8024/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="МАТЧ! ФУТБОЛ 1" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%201%20FHD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8021/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", МАТЧ! ФУТБОЛ 1
-https://live.uspeh.my/8021/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="МАТЧ! ФУТБОЛ 1" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%201%20FHD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8021/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", МАТЧ! ФУТБОЛ 1
+https://live.uspeh.my/8021/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="МАТЧ! ФУТБОЛ 1 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%201%20FHD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8236/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", МАТЧ! ФУТБОЛ 1 HD
-https://live.uspeh.my/8236/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="МАТЧ! ФУТБОЛ 1 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%201%20FHD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8236/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", МАТЧ! ФУТБОЛ 1 HD
+https://live.uspeh.my/8236/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="МАТЧ! ФУТБОЛ 2" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%202%20FHD.png" catchup="default" catchup-days="14" catchup-source="https://live.uspeh.my/8022/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="14", МАТЧ! ФУТБОЛ 2
-https://live.uspeh.my/8022/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="МАТЧ! ФУТБОЛ 2" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%202%20FHD.png" catchup="default" catchup-days="14" catchup-source="https://live.uspeh.my/8022/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="14", МАТЧ! ФУТБОЛ 2
+https://live.uspeh.my/8022/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="МАТЧ! ФУТБОЛ 2 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%202%20FHD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8237/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", МАТЧ! ФУТБОЛ 2 HD
-https://live.uspeh.my/8237/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="МАТЧ! ФУТБОЛ 2 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%202%20FHD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8237/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", МАТЧ! ФУТБОЛ 2 HD
+https://live.uspeh.my/8237/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="МАТЧ! ФУТБОЛ 3" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%203%20FHD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8029/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", МАТЧ! ФУТБОЛ 3
-https://live.uspeh.my/8029/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="МАТЧ! ФУТБОЛ 3" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%203%20FHD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8029/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", МАТЧ! ФУТБОЛ 3
+https://live.uspeh.my/8029/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="МАТЧ! ФУТБОЛ 3 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%203%20FHD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8238/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", МАТЧ! ФУТБОЛ 3 HD
-https://live.uspeh.my/8238/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="МАТЧ! ФУТБОЛ 3 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%9C%D0%B0%D1%82%D1%87!%20%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%203%20FHD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8238/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", МАТЧ! ФУТБОЛ 3 HD
+https://live.uspeh.my/8238/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="Футбол HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8147/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", Футбол HD
-https://live.uspeh.my/8147/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="Футбол HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8147/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", Футбол HD
+https://live.uspeh.my/8147/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="Волейбол HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/volley.png" catchup="default" catchup-days="3" catchup-source="https://live.uspeh.my/9192/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="3", Волейбол HD
-https://live.uspeh.my/9192/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="Волейбол HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/volley.png" catchup="default" catchup-days="3" catchup-source="https://live.uspeh.my/9192/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="3", Волейбол HD
+https://live.uspeh.my/9192/video.m3u8?token=XXM4p2j6rPXVpT18
 
 #EXTINF:-1 tvg-id="МЯЧ HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/myach.png" catchup-days="0", МЯЧ HD
-https://live.uspeh.my/8368/video.m3u8?token=EHFHvNjTwqcqsiKN
+https://live.uspeh.my/8368/video.m3u8?token=XXM4p2j6rPXVpT18
 
 #EXTINF:-1 tvg-id="ХОККЕЙ ТВ HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/hockey_tv.png" catchup-days="0", ХОККЕЙ ТВ HD
-https://live.uspeh.my/8367/video.m3u8?token=EHFHvNjTwqcqsiKN
+https://live.uspeh.my/8367/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="KHL" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/KHL%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8025/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", KHL
-https://live.uspeh.my/8025/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="KHL" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/KHL%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8025/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", KHL
+https://live.uspeh.my/8025/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="KHL Prime HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/KHL%20Prime%20FHD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8297/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", KHL Prime HD
-https://live.uspeh.my/8297/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="KHL Prime HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/KHL%20Prime%20FHD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8297/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", KHL Prime HD
+https://live.uspeh.my/8297/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="Eurosport 1" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/Eurosport%201%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8013/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", Eurosport 1
-https://live.uspeh.my/8013/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="Eurosport 1" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/Eurosport%201%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8013/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", Eurosport 1
+https://live.uspeh.my/8013/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="Eurosport 1 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/Eurosport%20HD%20DE.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8178/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", Eurosport 1 HD
-https://live.uspeh.my/8178/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="Eurosport 1 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/Eurosport%20HD%20DE.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8178/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", Eurosport 1 HD
+https://live.uspeh.my/8178/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="Eurosport 2" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/EUROSPORT%202%20HD%20SE.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8014/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", Eurosport 2
-https://live.uspeh.my/8014/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="Eurosport 2" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/EUROSPORT%202%20HD%20SE.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8014/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", Eurosport 2
+https://live.uspeh.my/8014/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="Eurosport 2 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/EUROSPORT%202%20HD%20SE.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8163/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", Eurosport 2 HD
-https://live.uspeh.my/8163/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="Eurosport 2 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/EUROSPORT%202%20HD%20SE.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8163/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", Eurosport 2 HD
+https://live.uspeh.my/8163/video.m3u8?token=XXM4p2j6rPXVpT18
 
 #EXTINF:-1 tvg-id="Sky Sports F1 HD UK" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/SKY%20SPORTS%20F1%20UK.png" catchup-days="0", Sky Sports F1 HD UK
-https://live.uspeh.my/8688/video.m3u8?token=EHFHvNjTwqcqsiKN
+https://live.uspeh.my/8688/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="Extreme Sports Channel" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/Extreme%20Sports%20orig.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8098/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", Extreme Sports Channel
-https://live.uspeh.my/8098/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="Extreme Sports Channel" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/Extreme%20Sports%20orig.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8098/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", Extreme Sports Channel
+https://live.uspeh.my/8098/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="viju+ Sport HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/Viju+%20Sport%20HD%20orig.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8015/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", viju+ Sport HD
-https://live.uspeh.my/8015/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="viju+ Sport HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/Viju+%20Sport%20HD%20orig.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8015/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", viju+ Sport HD
+https://live.uspeh.my/8015/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="ЖИВИ!" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%96%D0%98%D0%92%D0%98!%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8187/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", ЖИВИ!
-https://live.uspeh.my/8187/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="ЖИВИ!" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/%D0%96%D0%98%D0%92%D0%98!%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8187/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", ЖИВИ!
+https://live.uspeh.my/8187/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="Setanta Sports 1 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/Setanta%20Sports%201%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8565/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", Setanta Sports 1 HD
-https://live.uspeh.my/8565/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="Setanta Sports 1 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/Setanta%20Sports%201%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8565/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", Setanta Sports 1 HD
+https://live.uspeh.my/8565/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="Setanta Sports 2 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/Setanta%20Sports%202%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8676/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="7", Setanta Sports 2 HD
-https://live.uspeh.my/8676/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="Setanta Sports 2 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/Setanta%20Sports%202%20HD.png" catchup="default" catchup-days="7" catchup-source="https://live.uspeh.my/8676/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="7", Setanta Sports 2 HD
+https://live.uspeh.my/8676/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="BOX Be On Edge HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Be%20On%20Edge%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8423/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="1", BOX Be On Edge HD
-https://live.uspeh.my/8423/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="BOX Be On Edge HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Be%20On%20Edge%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8423/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="1", BOX Be On Edge HD
+https://live.uspeh.my/8423/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="BOX Be On Edge Live 1 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Be%20On%20Edge%20Live%201%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8421/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="1", BOX Be On Edge Live 1 HD
-https://live.uspeh.my/8421/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="BOX Be On Edge Live 1 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Be%20On%20Edge%20Live%201%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8421/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="1", BOX Be On Edge Live 1 HD
+https://live.uspeh.my/8421/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="BOX Be On Edge Live 2 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Be%20On%20Edge%20Live%202%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8422/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="1", BOX Be On Edge Live 2 HD
-https://live.uspeh.my/8422/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="BOX Be On Edge Live 2 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Be%20On%20Edge%20Live%202%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8422/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="1", BOX Be On Edge Live 2 HD
+https://live.uspeh.my/8422/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="BOX Be On Edge Live 3 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Be%20On%20Edge%20Live%203%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8467/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="1", BOX Be On Edge Live 3 HD
-https://live.uspeh.my/8467/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="BOX Be On Edge Live 3 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Be%20On%20Edge%20Live%203%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8467/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="1", BOX Be On Edge Live 3 HD
+https://live.uspeh.my/8467/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="BOX SportCast HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8436/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="1", BOX SportCast HD
-https://live.uspeh.my/8436/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="BOX SportCast HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8436/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="1", BOX SportCast HD
+https://live.uspeh.my/8436/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="BOX SportCast Live 1 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%201%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8981/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="1", BOX SportCast Live 1 HD
-https://live.uspeh.my/8981/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="BOX SportCast Live 1 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%201%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8981/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="1", BOX SportCast Live 1 HD
+https://live.uspeh.my/8981/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="BOX SportCast Live 2 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%202%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8447/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="1", BOX SportCast Live 2 HD
-https://live.uspeh.my/8447/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="BOX SportCast Live 2 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%202%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8447/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="1", BOX SportCast Live 2 HD
+https://live.uspeh.my/8447/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="BOX SportCast Live 3 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%203%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8451/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="1", BOX SportCast Live 3 HD
-https://live.uspeh.my/8451/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="BOX SportCast Live 3 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%203%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8451/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="1", BOX SportCast Live 3 HD
+https://live.uspeh.my/8451/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="BOX SportCast Live 4 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%204%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8459/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="1", BOX SportCast Live 4 HD
-https://live.uspeh.my/8459/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="BOX SportCast Live 4 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%204%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8459/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="1", BOX SportCast Live 4 HD
+https://live.uspeh.my/8459/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="BOX SportCast Live 5 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%205%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8460/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="1", BOX SportCast Live 5 HD
-https://live.uspeh.my/8460/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="BOX SportCast Live 5 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%205%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8460/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="1", BOX SportCast Live 5 HD
+https://live.uspeh.my/8460/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="BOX SportCast Live 6 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%206%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8463/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="1", BOX SportCast Live 6 HD
-https://live.uspeh.my/8463/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="BOX SportCast Live 6 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%206%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8463/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="1", BOX SportCast Live 6 HD
+https://live.uspeh.my/8463/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="BOX SportCast Live 7 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%207%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8464/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="1", BOX SportCast Live 7 HD
-https://live.uspeh.my/8464/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="BOX SportCast Live 7 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%207%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8464/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="1", BOX SportCast Live 7 HD
+https://live.uspeh.my/8464/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="BOX SportCast Live 8 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%208%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8465/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="1", BOX SportCast Live 8 HD
-https://live.uspeh.my/8465/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="BOX SportCast Live 8 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%208%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8465/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="1", BOX SportCast Live 8 HD
+https://live.uspeh.my/8465/video.m3u8?token=XXM4p2j6rPXVpT18
 
-#EXTINF:-1 tvg-id="BOX SportCast Live 9 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%209%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8466/video-${start}-${duration}.m3u8?token=EHFHvNjTwqcqsiKN" timeshift="1", BOX SportCast Live 9 HD
-https://live.uspeh.my/8466/video.m3u8?token=EHFHvNjTwqcqsiKN
+#EXTINF:-1 tvg-id="BOX SportCast Live 9 HD" group-title="Спорт"  tvg-logo="https://icon.uspeh.my/icon/BOX%20Sportcast%20Live%209%20HD.png" catchup="default" catchup-days="1" catchup-source="https://live.uspeh.my/8466/video-${start}-${duration}.m3u8?token=XXM4p2j6rPXVpT18" timeshift="1", BOX SportCast Live 9 HD
+https://live.uspeh.my/8466/video.m3u8?token=XXM4p2j6rPXVpT18
 
 #EXTINF:-1 tvg-rec="3" catchup-days="3" group-title="Досуг ТВ-Спортивные" tvg-id="49935" tvg-logo="http://epg.propg.net/img/channel_icons/49935.png" ,Eurosport 1 HD
 http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/49935/hlsx/pl.m3u8
@@ -882,4 +918,583 @@ http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/94986/hlsx/pl.m3u8
 
 #EXTINF:-1 tvg-rec="0" catchup-days="0" group-title="Досуг ТВ-Спортивные" tvg-id="89237" tvg-logo="http://epg.propg.net/img/channel_icons/89237.png" ,CineMan Фитнес
 http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/89237/hlsx/pl.m3u8
+
+#EXTINF:-1 tvg-name="Eurosport 2" group-title="Спортивные",Eurosport 2
+http://s2.00x00.es/10501/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Eurosport 1 HD" group-title="Спортивные",Eurosport 1 HD
+http://s2.00x00.es/10446/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Eurosport 2 HD" group-title="Спортивные",Eurosport 2 HD
+http://s2.00x00.es/10447/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Eurosport 3 HD" group-title="Спортивные",Eurosport 3 HD
+http://s2.00x00.es/21049/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Eurosport 4 HD" group-title="Спортивные",Eurosport 4 HD
+http://s2.00x00.es/21050/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Eurosport 1 HD UA" group-title="Спортивные",Eurosport 1 HD UA
+http://s2.00x00.es/11600/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Eurosport 2 HD UA" group-title="Спортивные",Eurosport 2 HD UA
+http://s2.00x00.es/11601/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Eurosport 4K" group-title="Спортивные",Eurosport 4K
+http://s2.00x00.es/20590/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Матч!" group-title="Спортивные",Матч!
+http://s2.00x00.es/20952/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Матч! HD" group-title="Спортивные",Матч! HD
+http://s2.00x00.es/10451/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Матч! Премьер" group-title="Спортивные",Матч! Премьер
+http://s2.00x00.es/20951/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Матч! Премьер HD" group-title="Спортивные",Матч! Премьер HD
+http://s2.00x00.es/10455/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Матч Футбол 1" group-title="Спортивные",Матч Футбол 1
+http://s2.00x00.es/11950/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Матч Футбол 2" group-title="Спортивные",Матч Футбол 2
+http://s2.00x00.es/11951/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Матч Футбол 3" group-title="Спортивные",Матч Футбол 3
+http://s2.00x00.es/11952/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Матч! Футбол 1 HD" group-title="Спортивные",Матч! Футбол 1 HD
+http://s2.00x00.es/10457/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Матч! Футбол 2 HD" group-title="Спортивные",Матч! Футбол 2 HD
+http://s2.00x00.es/10458/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Матч! Футбол 3 HD" group-title="Спортивные",Матч! Футбол 3 HD
+http://s2.00x00.es/10459/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Матч! Футбол 1 FHD" group-title="Спортивные",Матч! Футбол 1 FHD
+http://s2.00x00.es/10462/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Матч! Футбол 2 FHD" group-title="Спортивные",Матч! Футбол 2 FHD
+http://s2.00x00.es/10463/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Матч! Футбол 3 FHD" group-title="Спортивные",Матч! Футбол 3 FHD
+http://s2.00x00.es/10464/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Окко Футбол HD" group-title="Спортивные",Окко Футбол HD
+http://s2.00x00.es/10515/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Окко.Спорт HD" group-title="Спортивные",Окко.Спорт HD
+http://s2.00x00.es/10403/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Окко Прайм Спорт" group-title="Спортивные",Окко Прайм Спорт
+http://s2.00x00.es/10517/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Setanta Украина" group-title="Спортивные",Setanta Украина
+http://s2.00x00.es/10401/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Setanta+ Украина" group-title="Спортивные",Setanta+ Украина
+http://s2.00x00.es/10402/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Setanta Sports Premium" group-title="Спортивные",Setanta Sports Premium
+http://s2.00x00.es/10520/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Setanta Sports 1 HD" group-title="Спортивные",Setanta Sports 1 HD
+http://s2.00x00.es/10502/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Setanta Sports 2 HD" group-title="Спортивные",Setanta Sports 2 HD
+http://s2.00x00.es/10503/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Setanta Qazaqstan" group-title="Спортивные",Setanta Qazaqstan
+http://s2.00x00.es/10412/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Setanta Sports Moldova" group-title="Спортивные",Setanta Sports Moldova
+http://s2.00x00.es/10504/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Setanta Sports 1 HD UZ" group-title="Спортивные",Setanta Sports 1 HD UZ
+http://s2.00x00.es/20610/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Setanta Sports 2 HD UZ" group-title="Спортивные",Setanta Sports 2 HD UZ
+http://s2.00x00.es/20851/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Setanta Sports 1 Lietuva" group-title="Спортивные",Setanta Sports 1 Lietuva
+http://s2.00x00.es/10505/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Setanta Sports 1 Georgia" group-title="Спортивные",Setanta Sports 1 Georgia
+http://s2.00x00.es/10466/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Setanta Sports 2 Georgia" group-title="Спортивные",Setanta Sports 2 Georgia
+http://s2.00x00.es/10467/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Setanta Sports 3 Georgia" group-title="Спортивные",Setanta Sports 3 Georgia
+http://s2.00x00.es/10468/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Silk Sport 1 HD Georgia" group-title="Спортивные",Silk Sport 1 HD Georgia
+http://s2.00x00.es/20600/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Silk Sport 2 HD Georgia" group-title="Спортивные",Silk Sport 2 HD Georgia
+http://s2.00x00.es/20601/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Silk Sport 3 HD Georgia" group-title="Спортивные",Silk Sport 3 HD Georgia
+http://s2.00x00.es/20602/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Bein Sport 1 HD" group-title="Спортивные",Bein Sport 1 HD
+http://s2.00x00.es/10422/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Bein Sport 2 HD" group-title="Спортивные",Bein Sport 2 HD
+http://s2.00x00.es/10423/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Bein Sport 3 HD" group-title="Спортивные",Bein Sport 3 HD
+http://s2.00x00.es/10424/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Bein Sport 4 HD" group-title="Спортивные",Bein Sport 4 HD
+http://s2.00x00.es/21104/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Bein Sport 5 HD" group-title="Спортивные",Bein Sport 5 HD
+http://s2.00x00.es/21105/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="EUROSPORT 1 TR" group-title="Спортивные",EUROSPORT 1 TR
+http://s2.00x00.es/21157/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="EUROSPORT 2 TR" group-title="Спортивные",EUROSPORT 2 TR
+http://s2.00x00.es/21158/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Arena Premium 2 HD" group-title="Спортивные",Arena Premium 2 HD
+http://s2.00x00.es/20604/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Arena Premium 3 HD" group-title="Спортивные",Arena Premium 3 HD
+http://s2.00x00.es/20605/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Arena Premium 4 HD" group-title="Спортивные",Arena Premium 4 HD
+http://s2.00x00.es/20606/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Arena Premium 5 HD" group-title="Спортивные",Arena Premium 5 HD
+http://s2.00x00.es/20607/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Fint Ga 1" group-title="Спортивные",Fint Ga 1
+http://s2.00x00.es/10530/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Fint Ga 2" group-title="Спортивные",Fint Ga 2
+http://s2.00x00.es/10531/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Fint Ga 3" group-title="Спортивные",Fint Ga 3
+http://s2.00x00.es/10532/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Fint Ga 4" group-title="Спортивные",Fint Ga 4
+http://s2.00x00.es/10533/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Pimple TV 1" group-title="Спортивные",Pimple TV 1
+http://s2.00x00.es/10534/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Pimple TV 2" group-title="Спортивные",Pimple TV 2
+http://s2.00x00.es/10535/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Pimple TV 3" group-title="Спортивные",Pimple TV 3
+http://s2.00x00.es/10536/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Pimple TV 4" group-title="Спортивные",Pimple TV 4
+http://s2.00x00.es/10537/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Pimple TV 5" group-title="Спортивные",Pimple TV 5
+http://s2.00x00.es/10538/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Pimple TV 6" group-title="Спортивные",Pimple TV 6
+http://s2.00x00.es/10539/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ViP Sport 1" group-title="Спортивные",ViP Sport 1
+http://s2.00x00.es/10540/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ViP Sport 2" group-title="Спортивные",ViP Sport 2
+http://s2.00x00.es/10541/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ViP Sport 3" group-title="Спортивные",ViP Sport 3
+http://s2.00x00.es/10542/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ViP Sport 4" group-title="Спортивные",ViP Sport 4
+http://s2.00x00.es/10543/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ViP Sport 5" group-title="Спортивные",ViP Sport 5
+http://s2.00x00.es/10544/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ViP Sport 6" group-title="Спортивные",ViP Sport 6
+http://s2.00x00.es/10545/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ViP Sport 7" group-title="Спортивные",ViP Sport 7
+http://s2.00x00.es/10546/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ViP Sport 8" group-title="Спортивные",ViP Sport 8
+http://s2.00x00.es/10547/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ViP Sport 9" group-title="Спортивные",ViP Sport 9
+http://s2.00x00.es/10548/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ViP Sport 10" group-title="Спортивные",ViP Sport 10
+http://s2.00x00.es/10549/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ViP Sport 11" group-title="Спортивные",ViP Sport 11
+http://s2.00x00.es/10550/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ViP Sport 12" group-title="Спортивные",ViP Sport 12
+http://s2.00x00.es/10551/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ViP Sport 13" group-title="Спортивные",ViP Sport 13
+http://s2.00x00.es/10552/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ViP Sport 14" group-title="Спортивные",ViP Sport 14
+http://s2.00x00.es/10553/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ViP Sport 15" group-title="Спортивные",ViP Sport 15
+http://s2.00x00.es/10554/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ViP Sport 16" group-title="Спортивные",ViP Sport 16
+http://s2.00x00.es/10555/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ViP Sport 17" group-title="Спортивные",ViP Sport 17
+http://s2.00x00.es/10556/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Betking live 1" group-title="Спортивные",Betking live 1
+http://s2.00x00.es/10557/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Betking live 2" group-title="Спортивные",Betking live 2
+http://s2.00x00.es/10558/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Betking live 3" group-title="Спортивные",Betking live 3
+http://s2.00x00.es/10559/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Betking live 4" group-title="Спортивные",Betking live 4
+http://s2.00x00.es/21026/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Betking live 5" group-title="Спортивные",Betking live 5
+http://s2.00x00.es/21027/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Sport 1 Baltic" group-title="Спортивные",Sport 1 Baltic
+http://s2.00x00.es/10442/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Суспільне Спорт" group-title="Спортивные",Суспільне Спорт
+http://s2.00x00.es/10589/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Спорт 1 UA" group-title="Спортивные",Спорт 1 UA
+http://s2.00x00.es/10443/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Спорт 2 UA" group-title="Спортивные",Спорт 2 UA
+http://s2.00x00.es/10450/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Спорт 3 Украина" group-title="Спортивные",Спорт 3 Украина
+http://s2.00x00.es/20613/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="УПЛ ТВ 1" group-title="Спортивные",УПЛ ТВ 1
+http://s2.00x00.es/10444/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="УПЛ ТВ 2" group-title="Спортивные",УПЛ ТВ 2
+http://s2.00x00.es/10445/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="UPL.TV HD" group-title="Спортивные",UPL.TV HD
+http://s2.00x00.es/10514/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="SportStream" group-title="Спортивные",SportStream
+http://s2.00x00.es/10509/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="AutoSport HD" group-title="Спортивные",AutoSport HD
+http://s2.00x00.es/20612/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="BOX TV UA HD" group-title="Спортивные",BOX TV UA HD
+http://s2.00x00.es/20997/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Basketball UA HD" group-title="Спортивные",Basketball UA HD
+http://s2.00x00.es/20998/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Volleyball UA HD" group-title="Спортивные",Volleyball UA HD
+http://s2.00x00.es/20999/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Hockey UA HD" group-title="Спортивные",Hockey UA HD
+http://s2.00x00.es/21080/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Futball UA HD" group-title="Спортивные",Futball UA HD
+http://s2.00x00.es/21081/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Futball 2 UA HD" group-title="Спортивные",Futball 2 UA HD
+http://s2.00x00.es/21082/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Futball 3 UA HD" group-title="Спортивные",Futball 3 UA HD
+http://s2.00x00.es/21083/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Futzal UA HD" group-title="Спортивные",Futzal UA HD
+http://s2.00x00.es/21084/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Divi Sport HD" group-title="Спортивные",Divi Sport HD
+http://s2.00x00.es/10588/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Maincast Sport" group-title="Спортивные",Maincast Sport
+http://s2.00x00.es/20925/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Maincast Кіберспорт" group-title="Спортивные",Maincast Кіберспорт
+http://s2.00x00.es/20926/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Dynamo Kyiv TV HD" group-title="Спортивные",Dynamo Kyiv TV HD
+http://s2.00x00.es/10586/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Футбол" group-title="Спортивные",Футбол
+http://s2.00x00.es/10473/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Футбол HD" group-title="Спортивные",Футбол HD
+http://s2.00x00.es/10474/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Футбольный HD" group-title="Спортивные",Футбольный HD
+http://s2.00x00.es/10475/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Extreme Sports" group-title="Спортивные",Extreme Sports
+http://s2.00x00.es/10460/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Хоккейный HD" group-title="Спортивные",Хоккейный HD
+http://s2.00x00.es/10477/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="NHL" group-title="Спортивные",NHL
+http://s2.00x00.es/10419/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="KHL" group-title="Спортивные",KHL
+http://s2.00x00.es/10469/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="KHL HD" group-title="Спортивные",KHL HD
+http://s2.00x00.es/10470/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="KHL Prime" group-title="Спортивные",KHL Prime
+http://s2.00x00.es/10471/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="KHL Prime HD" group-title="Спортивные",KHL Prime HD
+http://s2.00x00.es/10472/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Бокс ТВ" group-title="Спортивные",Бокс ТВ
+http://s2.00x00.es/10506/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Удар HD" group-title="Спортивные",Удар HD
+http://s2.00x00.es/10507/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="MMA-TV!" group-title="Спортивные",MMA-TV!
+http://s2.00x00.es/10508/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="UFC" group-title="Спортивные",UFC
+http://s2.00x00.es/10420/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="FightBox HD" group-title="Спортивные",FightBox HD
+http://s2.00x00.es/10449/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Arena Fight" group-title="Спортивные",Arena Fight
+http://s2.00x00.es/20609/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Матч! Боец" group-title="Спортивные",Матч! Боец
+http://s2.00x00.es/10453/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="NBA TV" group-title="Спортивные",NBA TV
+http://s2.00x00.es/10421/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Мир Баскетбола" group-title="Спортивные",Мир Баскетбола
+http://s2.00x00.es/10513/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Старт Баскет HD" group-title="Спортивные",Старт Баскет HD
+http://s2.00x00.es/20611/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Старт HD" group-title="Спортивные",Старт HD
+http://s2.00x00.es/10465/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Старт Триумф HD" group-title="Спортивные",Старт Триумф HD
+http://s2.00x00.es/20621/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Матч! Арена" group-title="Спортивные",Матч! Арена
+http://s2.00x00.es/10452/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Матч! Страна" group-title="Спортивные",Матч! Страна
+http://s2.00x00.es/10456/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Матч! Игра" group-title="Спортивные",Матч! Игра
+http://s2.00x00.es/10454/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Viju+ Sport" group-title="Спортивные",Viju+ Sport
+http://s2.00x00.es/10448/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Спортивный HD" group-title="Спортивные",Спортивный HD
+http://s2.00x00.es/10476/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Golf TV HD" group-title="Спортивные",Golf TV HD
+http://s2.00x00.es/10417/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Super-Tennis HD" group-title="Спортивные",Super-Tennis HD
+http://s2.00x00.es/10418/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="DAZN 1" group-title="Спортивные",DAZN 1
+http://s2.00x00.es/10404/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="DAZN 2" group-title="Спортивные",DAZN 2
+http://s2.00x00.es/10405/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="FOX Sport 1 USA" group-title="Спортивные",FOX Sport 1 USA
+http://s2.00x00.es/10406/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="FOX Sport 2 USA" group-title="Спортивные",FOX Sport 2 USA
+http://s2.00x00.es/10407/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ESPN 1 USA" group-title="Спортивные",ESPN 1 USA
+http://s2.00x00.es/10408/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="ESPN 2 USA" group-title="Спортивные",ESPN 2 USA
+http://s2.00x00.es/10409/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Sky Sport Bundesliga 1 HD" group-title="Спортивные",Sky Sport Bundesliga 1 HD
+http://s2.00x00.es/10416/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Sky Sport 1 HD" group-title="Спортивные",Sky Sport 1 HD
+http://s2.00x00.es/10413/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Sky Sport 2 HD" group-title="Спортивные",Sky Sport 2 HD
+http://s2.00x00.es/10414/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Sky Sports F1" group-title="Спортивные",Sky Sports F1
+http://s2.00x00.es/10415/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="RTVS :Sport HD" group-title="Спортивные",RTVS :Sport HD
+http://s2.00x00.es/10425/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="PRIMA Sport 1 HD" group-title="Спортивные",PRIMA Sport 1 HD
+http://s2.00x00.es/10433/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="PRIMA Sport 2 HD" group-title="Спортивные",PRIMA Sport 2 HD
+http://s2.00x00.es/10434/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="PRIMA Sport 3 HD" group-title="Спортивные",PRIMA Sport 3 HD
+http://s2.00x00.es/10435/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="PRIMA Sport 4 HD" group-title="Спортивные",PRIMA Sport 4 HD
+http://s2.00x00.es/10436/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Nova Sport 1" group-title="Спортивные",Nova Sport 1
+http://s2.00x00.es/10441/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Digi Sport 1 HD" group-title="Спортивные",Digi Sport 1 HD
+http://s2.00x00.es/10437/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Digi Sport 2 HD" group-title="Спортивные",Digi Sport 2 HD
+http://s2.00x00.es/10438/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Digi Sport 3 HD" group-title="Спортивные",Digi Sport 3 HD
+http://s2.00x00.es/10439/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Digi Sport 4 HD" group-title="Спортивные",Digi Sport 4 HD
+http://s2.00x00.es/10440/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="MAX Sport 1 HD" group-title="Спортивные",MAX Sport 1 HD
+http://s2.00x00.es/10429/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="MAX Sport 2 HD" group-title="Спортивные",MAX Sport 2 HD
+http://s2.00x00.es/10430/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="MAX Sport 3 HD" group-title="Спортивные",MAX Sport 3 HD
+http://s2.00x00.es/10431/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="MAX Sport 4 HD" group-title="Спортивные",MAX Sport 4 HD
+http://s2.00x00.es/10432/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="SuperSport 1 HD" group-title="Спортивные",SuperSport 1 HD
+http://s2.00x00.es/10486/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="SuperSport 2 HD" group-title="Спортивные",SuperSport 2 HD
+http://s2.00x00.es/10487/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="SuperSport 3 HD" group-title="Спортивные",SuperSport 3 HD
+http://s2.00x00.es/10488/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="SuperSport 4 HD" group-title="Спортивные",SuperSport 4 HD
+http://s2.00x00.es/10489/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Arena Sport 1 HD" group-title="Спортивные",Arena Sport 1 HD
+http://s2.00x00.es/10490/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Arena Sport 4 HD" group-title="Спортивные",Arena Sport 4 HD
+http://s2.00x00.es/10493/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Arena Sport 5 HD" group-title="Спортивные",Arena Sport 5 HD
+http://s2.00x00.es/10494/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Arena Sport 6 HD" group-title="Спортивные",Arena Sport 6 HD
+http://s2.00x00.es/10495/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Go3 Sport" group-title="Спортивные",Go3 Sport
+http://s2.00x00.es/10525/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Go3 Sport 2" group-title="Спортивные",Go3 Sport 2
+http://s2.00x00.es/10526/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Go3 Sport 3" group-title="Спортивные",Go3 Sport 3
+http://s2.00x00.es/10527/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Go3 Sport Open" group-title="Спортивные",Go3 Sport Open
+http://s2.00x00.es/10528/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Polsat Sport Extra 1 HD" group-title="Спортивные",Polsat Sport Extra 1 HD
+http://s2.00x00.es/10580/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Polsat Sport Extra 2 HD" group-title="Спортивные",Polsat Sport Extra 2 HD
+http://s2.00x00.es/10581/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Polsat Sport Extra 3 HD" group-title="Спортивные",Polsat Sport Extra 3 HD
+http://s2.00x00.es/10582/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Polsat Sport Extra 4 HD" group-title="Спортивные",Polsat Sport Extra 4 HD
+http://s2.00x00.es/10583/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="CANAL+ 360 HD" group-title="Спортивные",CANAL+ 360 HD
+http://s2.00x00.es/10584/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="CANAL+ Sport 2 HD" group-title="Спортивные",CANAL+ Sport 2 HD
+http://s2.00x00.es/10585/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="CANAL+ Sport 3 HD" group-title="Спортивные",CANAL+ Sport 3 HD
+http://s2.00x00.es/20586/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="CANAL+ Sport 4 HD" group-title="Спортивные",CANAL+ Sport 4 HD
+http://s2.00x00.es/20587/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="CANAL+ Sport 5 HD" group-title="Спортивные",CANAL+ Sport 5 HD
+http://s2.00x00.es/20588/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Polsat Sport" group-title="Спортивные",Polsat Sport
+http://s2.00x00.es/10590/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Polsat Sport Premium 1" group-title="Спортивные",Polsat Sport Premium 1
+http://s2.00x00.es/10591/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Polsat Sport Premium 2" group-title="Спортивные",Polsat Sport Premium 2
+http://s2.00x00.es/10592/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Eleven Sports 1 4K PL" group-title="Спортивные",Eleven Sports 1 4K PL
+http://s2.00x00.es/10411/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Bein Sports XTRA" group-title="Спортивные",Bein Sports XTRA
+http://s2.00x00.es/10595/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="DAZN Womens Football" group-title="Спортивные",DAZN Womens Football
+http://s2.00x00.es/10596/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="World Poker Tour HD" group-title="Спортивные",World Poker Tour HD
+http://s2.00x00.es/10597/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Red Bull TV HD" group-title="Спортивные",Red Bull TV HD
+http://s2.00x00.es/10599/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Q Sport 1 League" group-title="Спортивные",Q Sport 1 League
+http://s2.00x00.es/10410/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Спорт ТВ Беларусь HD" group-title="Спортивные",Спорт ТВ Беларусь HD
+http://s2.00x00.es/21076/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Q Sport 2 Arena HD" group-title="Спортивные",Q Sport 2 Arena HD
+http://s2.00x00.es/21077/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Q Sport 3 Football HD" group-title="Спортивные",Q Sport 3 Football HD
+http://s2.00x00.es/21078/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Q Sport int. HD" group-title="Спортивные",Q Sport int. HD
+http://s2.00x00.es/21079/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:-1 tvg-name="Arena Premium 1 HD" group-title="Спортивные",Arena Premium 1 HD
+http://s2.00x00.es/20603/index.m3u8?token=0C0BB8C458E3
 
